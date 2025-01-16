@@ -1,0 +1,91 @@
+﻿@model OVS.Models.ElectionResult
+
+@{
+    ViewBag.Title = "Election Result";
+    Layout = "_UserSidelayout";
+}
+
+<div class="container py-5">
+    <h1 class="fw-bold text-primary text-center mb-4">Election Result</h1>
+
+    <!-- Election Result Table for Large Screens -->
+    <div class="d-none d-md-block">
+        <!-- Hidden on mobile, shown on larger screens -->
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered text-center">
+                <thead class="table-primary">
+                    <tr>
+                        <th scope="col">Election Title</th>
+                        <th scope="col">Start Date</th>
+                        <th scope="col">End Date</th>
+                        <th scope="col">Candidate Name</th>
+                        <th scope="col">Party Affiliation</th>
+                        <th scope="col">Votes Received</th>
+                        <th scope="col">Total Votes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model == null)
+                    {
+                        <tr>
+                            <td colspan="7" class="text-center text-warning">No election results available.</td>
+                        </tr>
+                    }
+                    else
+                    {
+                        <tr class="text-white">
+                            <td>@Model.ElectionTitle</td>
+                            <td>@Model.ElectionStartDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                            <td>@Model.ElectionEndDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                            <td>@Model.CandidateName</td>
+                            <td>@Model.CandidatePartyAffiliation</td>
+                            <td>@Model.VotesReceived</td>
+                            <td>@Model.TotalVotes</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Election Result for Mobile Screens -->
+    <div class="d-block d-md-none">
+        <!-- Visible only on mobile -->
+        <div class="row">
+            @if (Model == null)
+            {
+                <div class="col-12">
+                    <div class="alert alert-warning" role="alert">
+                        No election results available.
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="col-12 mb-4">
+                    <div class="card" style="border: none;">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bolder">@Model.ElectionTitle</h5>
+                            <p class="card-text"><strong>Start Date:</strong> @Model.ElectionStartDate.ToString("yyyy-MM-dd HH:mm:ss")</p>
+                            <p class="card-text"><strong>End Date:</strong> @Model.ElectionEndDate.ToString("yyyy-MM-dd HH:mm:ss")</p>
+                            <p class="card-text"><strong>Candidate:</strong> @Model.CandidateName</p>
+                            <p class="card-text"><strong>Party:</strong> @Model.CandidatePartyAffiliation</p>
+                            <p class="card-text"><strong>Votes Received:</strong> @Model.VotesReceived</p>
+                            <p class="card-text"><strong>Total Votes:</strong> @Model.TotalVotes</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+    <!-- Action Section -->
+    <div class="row justify-content-center mt-4">
+        <div class="col-12 col-md-6 text-center">
+            <form asp-action="ShowResult" asp-controller="Elections" method="post">
+                <input type="hidden" name="ElectionId" value="@ViewBag.ElectionId" />
+                <button type="submit" class="btn btn-primary btn-lg">Refresh Result</button>
+            </form>
+        </div>
+    </div>
+</div>

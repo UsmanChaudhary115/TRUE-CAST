@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Sign Out";
+    Layout = "_AdminSidelayout";
+}
+
+<div class="container-fluid" style="padding-top: 25vh; height: 100vh;">
+    <div class="row align-items-center" style="min-height: auto;">
+        <!-- Text Section for Sign Out -->
+        <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center" style="text-align: center;">
+            <div class="mx-auto" style="max-width: 600px; border-radius: 10px; background:none;">
+                <div class="card-body text-center" style="color: white; padding: 20px;">
+                    <h1 class="card-title" style="font-size: 2.5rem;">Thank You for Managing <span style="color: blue; font-family: Arial Black;">True Cast</span></h1>
+                    <p class="card-text" style="font-size: 1rem;">Your administrative oversight helps maintain a secure and efficient voting process.</p>
+                    <p class="card-text" style="font-size: 1rem;">Click below to confirm your sign-out or return to the admin dashboard.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Text and Form Section -->
+        <div class="col-lg-6 col-md-12">
+            <div class="text-center" style="padding-top: 20px; font-family: 'Times New Roman';">
+                <h1 class="fw-bold text-primary" style="font-size: 1.5rem;">Admin Sign Out</h1>
+
+                @if (ViewBag.Message != null)
+                {
+                    <div class="alert alert-info" role="alert">
+                        @ViewBag.Message
+                    </div>
+                }
+
+                <p class="text-center" style="font-size: 1rem;">Are you sure you want to sign out of the admin panel?</p>
+
+                <form method="post" asp-controller="Admin" asp-action="AdminSignOutConfirmed" class="p-3" style="max-width: 400px; margin: 0 auto;">
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-custom w-100 btn-lg">Sign Out</button>
+                    </div>
+                </form>
+
+                <div class="text-center">
+                    <p>Changed your mind? <a asp-action="AdminPannel" asp-controller="Admin" class="text-primary">Go back to Admin Dashboard</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

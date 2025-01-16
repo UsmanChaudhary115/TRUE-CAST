@@ -1,0 +1,101 @@
+﻿@model List<OVS.Models.Candidate>
+@{
+    ViewData["Title"] = "Candidate List";
+    Layout = "_AdminSidelayout";
+}
+
+<!-- Candidate List View -->
+<div class="container py-5">
+    <h1 class="fw-bold text-primary text-center mb-4">Candidate Management</h1>
+
+    <!-- Add New Candidate Button -->
+    <div class="text-center mb-4">
+        <a href="@Url.Action("AddCandidateToElection", "Candidate", new { electionId = ViewBag.ElectionId })" class="btn btn-warning btn-lg">Add New Candidate</a>
+    </div>
+
+    <!-- Candidate Table for Large Screens -->
+    <div class="d-none d-md-block">
+        <!-- Hidden on mobile, shown on larger screens -->
+        <div class="table-responsive">
+            <table class="table table-dark table-striped table-bordered text-center">
+                <thead class="table-primary">
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Party</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.Any())
+                    {
+                        int counter = 1;
+                        foreach (var candidate in Model)
+                        {
+                            <tr>
+                                <td>@counter</td>
+                                <td>@candidate.Name</td>
+                                <td>@candidate.PartyAffiliation</td>
+                                <td>
+                                    <div class="btn-group" role="group">
+                                        <a href="@Url.Action("CandidateDetails", "Candidate", new { id = candidate.CandidateId })" class="btn btn-warning btn-sm mb-2 mb-md-0 me-md-2">View</a>
+                                        <form method="post" action="@Url.Action("Remove", "Candidate")" style="display:inline;">
+                                            <input type="hidden" name="electionId" value="@ViewBag.ElectionId" />
+                                            <input type="hidden" name="candidateId" value="@candidate.CandidateId" />
+                                            <button type="submit" class="btn btn-danger btn-sm mb-2 mb-md-0" aria-label="Remove candidate">Remove</button>
+                                        </form>
+                                    </div>
+                                </td>
+                            </tr>
+                            counter++;
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="4">No candidates available.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Candidate Cards for Mobile Screens -->
+    <div class="d-block d-md-none">
+        <!-- Visible only on mobile -->
+        <div class="row">
+            @if (Model.Any())
+            {
+                foreach (var candidate in Model)
+                {
+                    <div class="col-12 mb-4">
+                        <div class="card" style="border: none;">
+                            <div class="card-body">
+                                <h2 class="card-title fw-bolder">@candidate.Name</h2>
+                                <p class="card-text bg-dark"><strong>Party:</strong> @candidate.PartyAffiliation</p>
+                                <div class="d-flex justify-content-center" role="group">
+                                    <a href="@Url.Action("CandidateDetails", "Candidate", new { id = candidate.CandidateId })" class="btn btn-info btn-sm mb-2 mb-md-0 me-2">View</a>
+                                    <form method="post" action="@Url.Action("Remove", "Candidate")" style="display:inline;">
+                                        <input type="hidden" name="electionId" value="@ViewBag.ElectionId" />
+                                        <input type="hidden" name="candidateId" value="@candidate.CandidateId" />
+                                        <button type="submit" class="btn btn-danger btn-sm mb-2 mb-md-0" aria-label="Remove candidate">Remove</button>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="col-12">
+                    <div class="alert alert-warning" role="alert">
+                        No candidates available.
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

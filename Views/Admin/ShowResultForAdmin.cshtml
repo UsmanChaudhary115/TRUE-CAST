@@ -1,0 +1,57 @@
+﻿@model List<OVS.Models.ElectionResult>
+
+@{
+    ViewBag.Title = "Election Results for Admin";
+    Layout = "_AdminSideLayout"; // Use the admin layout
+}
+
+<div class="container mt-5">
+    <h1 class="text-center mb-5">Election Results for Admin</h1>
+
+    <!-- Election Results Table -->
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped table-hover">
+            <thead>
+                <tr class="table-primary">
+                    <th scope="col">Election Title</th>
+                    <th scope="col">Start Date</th>
+                    <th scope="col">End Date</th>
+                    <th scope="col">Candidate Name</th>
+                    <th scope="col">Party Affiliation</th>
+                    <th scope="col">Votes Received</th>
+                    <th scope="col">Total Votes</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model == null || !Model.Any())
+                {
+                    <tr>
+                        <td colspan="7" class="text-center text-warning">No election results available.</td>
+                    </tr>
+                }
+                else
+                {
+                    @foreach (var result in Model)
+                    {
+                        <tr class="text-white">
+                            <td>@result.ElectionTitle</td>
+                            <td>@result.ElectionStartDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                            <td>@result.ElectionEndDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                            <td>@result.CandidateName</td>
+                            <td>@result.CandidatePartyAffiliation</td>
+                            <td>@result.VotesReceived</td>
+                            <td>@result.TotalVotes</td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Action Section -->
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-6 text-center">
+            <a href="@Url.Action("ShowResultForAdmin", "Elections")" class="btn btn-primary btn-lg">Refresh Results</a>
+        </div>
+    </div>
+</div>

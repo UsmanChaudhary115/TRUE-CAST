@@ -1,0 +1,214 @@
+﻿@model OVS.Models.User
+@{
+    ViewData["Title"] = "Profile";
+    Layout = "_UserSidelayout";
+}
+
+<style>
+    .profile-container {
+        padding: 40px;
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #1e1e1e;
+        border-radius: 10px;
+        padding: 30px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    }
+
+    .profile-picture-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+        .profile-picture-section img {
+            width: 12rem;
+            height: 12rem;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid aliceblue;
+            transition: transform 0.2s ease-in-out;
+        }
+
+            .profile-picture-section img:hover {
+                box-shadow: 0 4px 12px rgba(255, 255, 255, 0.5);
+            }
+
+    .section-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #61dafb;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #61dafb;
+        padding-bottom: 5px;
+    }
+
+    .profile-info {
+        margin-bottom: 20px;
+    }
+
+        .profile-info label {
+            font-weight: bold;
+            color: aliceblue;
+        }
+
+        .profile-info .form-control {
+            background-color: #333;
+            color: aliceblue;
+            border: 1px solid #444;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+    .edit-profile-button {
+        display: block;
+        margin: 30px auto 0;
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+        background-color: #61dafb;
+        border: none;
+        color: #333;
+        font-weight: bold;
+        border-radius: 8px;
+        font-size: 1rem;
+        text-decoration:none;
+        transition: background-color 0.3s ease;
+    }
+
+        .edit-profile-button:hover {
+            background-color: #218838;
+            color: white;
+        }
+</style>
+
+<div class="container py-5 mt-5">
+    <div class="profile-container">
+        <div class="profile-picture-section">
+            <img src="@Url.Content("~/images/" + (Model.ProfilePicture ?? "default-profile-picture.jpg"))" alt="Profile Picture">
+        </div>
+        <h2 class="text-center text-white mb-4 fw-bolder">@Model.FirstName @Model.LastName</h2>
+
+        <!-- Personal Information -->
+        <div class="profile-info">
+            <div class="section-title">Personal Information</div>
+            <div class="mb-3">
+                <label for="FirstName">First Name</label>
+                <div class="form-control">@Model.FirstName</div>
+            </div>
+            <div class="mb-3">
+                <label for="LastName">Last Name</label>
+                <div class="form-control">@Model.LastName</div>
+            </div>
+            <div class="mb-3">
+                <label for="DateOfBirth">Date of Birth</label>
+                <div class="form-control">
+                    @if (Model.DateOfBirth.HasValue)
+                    {
+                        @Model.DateOfBirth.Value.ToString("yyyy-MM-dd")
+                    }
+                    else
+                    {
+                        <span>Not Provided</span>
+                    }
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="Gender">Gender</label>
+                <div class="form-control">
+                    @if (!string.IsNullOrEmpty(Model.Gender))
+                    {
+                        @Model.Gender
+                    }
+                    else
+                    {
+                        <span>Not Provided</span>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="profile-info">
+            <div class="section-title">Contact Information</div>
+            <div class="mb-3">
+                <label for="Email">Email</label>
+                <div class="form-control">@Model.Email</div>
+            </div>
+            <div class="mb-3">
+                <label for="PhoneNumber">Phone Number</label>
+                <div class="form-control">
+                    @if (!string.IsNullOrEmpty(Model.PhoneNumber))
+                    {
+                        @Model.PhoneNumber
+                    }
+                    else
+                    {
+                        <span>Not Provided</span>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <!-- Address -->
+        <div class="profile-info">
+            <div class="section-title">Address</div>
+            <div class="mb-3">
+                <label for="Street">Street</label>
+                <div class="form-control">
+                    @if (!string.IsNullOrEmpty(Model.Street))
+                    {
+                        @Model.Street
+                    }
+                    else
+                    {
+                        <span>Not Provided</span>
+                    }
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="City">City</label>
+                <div class="form-control">
+                    @if (!string.IsNullOrEmpty(Model.City))
+                    {
+                        @Model.City
+                    }
+                    else
+                    {
+                        <span>Not Provided</span>
+                    }
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="State">State</label>
+                <div class="form-control">
+                    @if (!string.IsNullOrEmpty(Model.State))
+                    {
+                        @Model.State
+                    }
+                    else
+                    {
+                        <span>Not Provided</span>
+                    }
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="ZipCode">Zip Code</label>
+                <div class="form-control">
+                    @if (!string.IsNullOrEmpty(Model.ZipCode))
+                    {
+                        @Model.ZipCode
+                    }
+                    else
+                    {
+                        <span>Not Provided</span>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <!-- Edit Profile Button -->
+        <a asp-action="EditProfile" asp-route-id="@Model.Id" class="edit-profile-button">Edit Profile</a>
+    </div>
+</div>

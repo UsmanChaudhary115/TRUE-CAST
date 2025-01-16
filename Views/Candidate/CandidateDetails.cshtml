@@ -1,0 +1,18 @@
+﻿@model OVS.Models.Candidate
+@{
+    ViewData["Title"] = "Candidate Details";
+    Layout = "_AdminSidelayout";
+}
+
+<div class="container py-5">
+    <h1 class="d-flex justify-content-around fw-bold text-primary mb-5">Candidate Details</h1>
+
+    <div class="card mx-auto card-custom" style="border:none;">
+        <h2 class="d-flex justify-content-center fw-bolder">@Model.Name</h2>
+        <p class="bg-dark"><strong>Party Affiliation:</strong> @Model.PartyAffiliation</p>
+        <p><strong>CNIC:</strong> @Model.CNIC</p>
+        <p class="bg-dark"><strong>Contact Info:</strong> @Model.ContactInfo</p>
+        <p><strong>Manifesto:</strong></p>
+        <p>@Model.Manifesto</p>
+    </div>
+</div>

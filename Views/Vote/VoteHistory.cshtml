@@ -1,0 +1,57 @@
+﻿@model List<OVS.Models.VoteHistory>
+
+@{
+    ViewBag.Title = "My Vote History";
+    Layout = "_UserSidelayout";
+}
+<style>
+    .custom-hover tbody tr:hover {
+        background-color: #007bff !important; 
+        color: white !important;  
+    }
+
+</style>
+
+<div class="container mt-5 mb-5 text-center py-5 text-light" style="min-height: 80vh;">
+    <div class="row">
+        <div class="col-lg-8 mx-auto"> 
+                <div class="text-center">
+                <h1 class="text-primary"><strong>@ViewBag.Title</strong></h1>
+                </div>
+                <div class="card-body">
+                    @if (Model == null || !Model.Any())
+                    {
+                        <p class="text-center text-muted lead">You have not participated in any elections yet.</p>
+                    }
+                    else
+                    {
+                        <table class="table table-hover table-bordered mt-4 custom-hover">
+                            <thead class="bg-light text-dark">
+                                <tr>
+                                    <th>Election</th>
+                                    <th>Candidate</th>
+                                    <th>Date & Time</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-white">
+                                @foreach (var vote in Model)
+                                {
+                                    <tr>
+                                        <td>@vote.ElectionTitle</td>
+                                        <td>@vote.CandidateName</td>
+                                        <td>@vote.VoteDateTime.ToString("MMM dd, yyyy HH:mm")</td>
+                                        <td>
+                                            <span class="badge @(vote.Status == "Valid" ? "bg-success" : "bg-danger")">
+                                                @vote.Status
+                                            </span>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    }
+                </div>
+        </div>
+    </div>
+</div>

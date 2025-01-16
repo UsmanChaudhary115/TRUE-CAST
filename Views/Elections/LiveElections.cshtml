@@ -1,0 +1,105 @@
+﻿@model List<OVS.Models.Election>
+
+@{
+    ViewBag.Title = "Live Elections";
+    Layout = "_UserSidelayout";
+}
+
+<div class="container mt-4 text-center pt-5" style="min-height: 100vh;">
+    <h1 class="mb-5 fw-bolder text-primary">@ViewBag.Title</h1>
+
+    <!-- Text Section with Image -->
+    <div class="row mb-5">
+        <div class="col-12 text-center position-relative" style="height: 50vh; background-image: url('@Url.Content("~/images/man-placing-box-his-ballot.jpg")'); background-size: cover; background-position: center; background-attachment: fixed;">
+            <div class="position-absolute top-50 start-50 translate-middle text-white px-4 py-3 bg-dark bg-opacity-50 rounded">
+                <h3 class="mb-3 fw-bold">Your Vote Matters</h3>
+                <p class="lead">Participate in live elections and make your voice heard. Your vote is crucial for shaping the future.</p>
+            </div>
+        </div>
+    </div>
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-warning">
+            @TempData["Message"]
+        </div>
+        var count = @TempData.Remove("Message");
+    }
+
+    @if (Model == null || !Model.Any())
+    {
+        <!-- No Elections Available Message -->
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="alert alert-info" role="alert">
+                    <h4 class="alert-heading">No Elections Available</h4>
+                    <p>Currently, there are no live elections. Please check back later or explore upcoming elections below.</p>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <!-- Election List Section -->
+        <div class="row justify-content-center">
+            @foreach (var election in Model)
+            {
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card" style="border:none">
+                        <div class="card-body bg-black">
+                            <h5 class="card-title">@election.Title</h5>
+                            <p>
+                                <strong>Status:</strong>
+                                <span class="badge bg-success">Live Now</span>
+                            </p>
+                            <a href="@Url.Action("ElectionDetailsForUser", "Elections", new { id = election.ElectionId })" class="btn btn-custom">View Details</a>
+                            @if (election.IsLive)
+                            {
+                                <a href="@Url.Action("CastVote", "Vote", new { electionId = election.ElectionId })" class="btn btn-custom">Vote Now</a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+
+    <div class="container mt-4 text-center">
+        <!-- Upcoming Elections Section -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="card card-glass">
+                    <div class="card-body">
+                        <h5 class="section-title">Upcoming Elections</h5>
+                        <p class="lead">Stay informed about the next live elections and make sure you're ready to cast your vote when the time comes!</p>
+                        <a href="@Url.Action("UpcomingElections", "Elections")" class="btn btn-custom">View Upcoming Elections</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="card card-glass">
+                    <div class="card-body">
+                        <h5 class="section-title">Explore Election History</h5>
+                        <p class="lead">Interested in past elections? Dive into the archives to view the outcomes and details of completed elections.</p>
+                        <a href="@Url.Action("PreviousElections", "Elections")" class="btn btn-custom">Go to Previous Elections</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Stay Updated Section -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card card-glass">
+                    <div class="card-body">
+                        <h5 class="section-title">Stay Updated</h5>
+                        <p class="lead">Never miss an election! Subscribe to our newsletter to receive notifications about live elections, voting procedures, and more.</p>
+                        <a href="#" class="btn btn-custom">Subscribe Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

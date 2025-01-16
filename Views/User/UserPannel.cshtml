@@ -1,0 +1,84 @@
+﻿@{
+    Layout = "_UserSidelayout";
+}
+
+<body class="text-white">
+    <div class="container py-5">
+
+        <!-- Welcome Section -->
+        <div class="jumbotron text-center">
+            <h1 class="display-4">Welcome to <span style="color: blue; font-family: Arial Black;">True Cast</span> @ViewBag.Name!</h1>
+            <p class="lead">Your secure platform to participate in elections. Cast your vote with confidence, view upcoming elections, and stay informed about your voting rights.</p>
+        </div>
+
+        <!-- Key Features Section -->
+        <div class="row">
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="section-title">Upcoming Elections</h5>
+                        <p>See the list of upcoming elections, eligibility criteria, and important dates.</p>
+                        <a asp-action="UpcomingElections" asp-controller="Elections" class="btn btn-custom">View Upcoming Elections</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card card-glass">
+                    <div class="card-body">
+                        <h5 class="section-title">Cast Your Vote</h5>
+                        <p>Proceed directly to the voting interface to view candidates and cast your vote.</p>
+                        <a asp-action="LiveElections" asp-controller="Elections" class="btn btn-custom">Go to Voting Page</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Previous Elections Section -->
+        <div class="row mt-4">
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card card-glass">
+                    <div class="card-body">
+                        <h5 class="section-title">Previous Elections</h5>
+                        <p>Explore the outcomes and details of past elections in your area.</p>
+                        <a asp-action="PreviousElections" asp-controller="Elections" class="btn btn-custom">View Previous Elections</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Optional Section for Voting History -->
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card card-glass">
+                    <div class="card-body">
+                        <h5 class="section-title">Your Voting History</h5>
+                        <p>Review the elections you've participated in and your voting records.</p>
+                        <a asp-action="VoteHistory" asp-controller="Vote" class="btn btn-custom">View Voting History</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Election Guidelines Section -->
+        <div class="row mt-4">
+            <div class="col-12 mb-4">
+                <div class="card card-glass">
+                    <div class="card-body">
+                        <h5 class="section-title">Election Guidelines</h5>
+                        <p>Learn how to cast your vote, understand the security measures, and explore detailed guidelines.</p>
+                        <a asp-action="ElectoinGuidelines" asp-controller="Elections" class="btn btn-custom">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Announcements Section -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="alert alert-info" role="alert">
+                    <h5 class="alert-heading">Important Announcement</h5>
+                    <p>Don't forget! The election day is fast approaching. Be ready to cast your vote at <strong>@ViewBag.ClosestElection</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

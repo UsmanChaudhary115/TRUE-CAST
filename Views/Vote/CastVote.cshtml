@@ -1,0 +1,74 @@
+﻿@model List<OVS.Models.Candidate>
+
+@{
+    ViewBag.Title = "Cast Your Vote";
+    Layout = "_UserSidelayout";
+}
+
+<div class="container mt-5 py-5" style="min-height: 100vh;">
+    <h1 class="mb-5 fw-bolder text-primary text-center">@ViewBag.Title</h1>
+
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10 col-sm-12">
+            <div class="card-custom bg-black text-white">
+                <div class="card-body">
+                    <h4 class="card-title text-success">Election: @ViewBag.ElectionTitle</h4>
+                    <p class="lead">Choose your preferred candidate below:</p>
+
+                    <form method="post" action="@Url.Action("CastVote", "Vote")">
+                        <input type="hidden" name="electionId" value="@ViewBag.ElectionId" />
+
+                        <!-- Table for larger screens -->
+                        <div class="d-none d-md-block">
+                            <table class="table table-hover text-white">
+                                <thead>
+                                    <tr>
+                                        <th>Candidate Name</th>
+                                        <th>Party</th>
+                                        <th>Manifesto</th>
+                                        <th>Select</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var candidate in Model)
+                                    {
+                                        <tr>
+                                            <td>@candidate.Name</td>
+                                            <td>@candidate.PartyAffiliation</td>
+                                            <td>@candidate.Manifesto</td>
+                                            <td>
+                                                <input type="radio" name="candidateId" value="@candidate.CandidateId" required />
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!-- Cards for smaller screens -->
+                        <div class="d-block d-md-none">
+                            @foreach (var candidate in Model)
+                            {
+                                <div class="card bg-dark text-white mb-3">
+                                    <div class="card-body">
+                                        <h5 class="card-title">@candidate.Name</h5>
+                                        <p class="card-text"><strong>Party:</strong> @candidate.PartyAffiliation</p>
+                                        <p class="card-text"><strong>Manifesto:</strong> @candidate.Manifesto</p>
+                                        <div class="form-check">
+                                            <input type="radio" name="candidateId" value="@candidate.CandidateId" class="form-check-input" required />
+                                            <label class="form-check-label">Select</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+
+                        <div class="text-center mt-3">
+                            <button type="submit" class="btn btn-success btn-lg">Submit Vote</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

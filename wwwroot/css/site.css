@@ -1,0 +1,187 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    margin-top: auto; /* Push the footer to the bottom of the page */
+}
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.outer-box {
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    padding-left: 35%;
+    padding-right: 25%;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.inner-box {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 17, 36, 0.4);
+    justify-content: space-around;
+    flex: 1;
+    height: 55px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    min-width: 400px;
+    max-width: 100%;
+}
+
+.nav-button {
+    color: aliceblue;
+    border: none;
+    background: none;
+    font-weight: bold;
+    transition: transform 0.15s, color 0.15s, background-color 0.15s;
+}
+
+    .nav-button:hover {
+        cursor: pointer;
+        color: black;
+        background-color:white;
+    }
+
+.nav-button:active 
+{
+    cursor:progress;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.navbar-nav .btn:focus {
+    outline: none;
+    box-shadow: 0 0 5px aliceblue;
+}
+.logo-image {
+            height: 40px;
+            width: auto;
+        }
+
+        .navbar-heading {
+            font-size: 1.5rem; /* Adjust the font size as needed */
+            margin: 0; /* Remove any default margin */
+        }
+
+.navbar-margin {
+    margin-top: 22px;
+}
+ 
+.custom-toggler {
+    border-color: white;  
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="white" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+
+.navbar-custom {
+    background-color: rgba(0,0,0); /* Semi-transparent white background */
+    border: none;
+    padding: 10px 20px; /* Adjust padding to fit your navbar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+.card-custom {
+    background-color: rgba(255,255,255, 0.3); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Blurs the background behind the element */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border to enhance the glass effect */
+    border-radius: 8px; /* Optional: Adds rounded corners */
+    padding: 10px 20px; /* Adjust padding to fit your navbar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+.form-control {
+    background-color: #000; /* Black background */
+    color: white; /* White text */
+    border: solid;
+    border-color: blue; /* Default border color */
+    border-radius: 8px;
+    transition: border 0.15s;
+}
+
+.form-control:hover {
+    border-color: white; /* Keep the same border color */
+    box-shadow: 0 0 5px aliceblue; /* Optional: Add a shadow effect */
+}
+
+.form-control:focus {
+    background-color: #000; /* White background on focus */
+    color: #fff; /* Black text on focus */
+    border-color: white; /* Keep the same border color */
+    box-shadow: 0 0 5px aliceblue; /* Optional: Add a shadow effect */
+}
+
+.btn-custom {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.card {
+    background: none;
+    border: solid blue;
+    border-radius: 5px;
+    transition: transform 0.15s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    border-color: darkblue;
+}
+.btn{
+    align-content: center;
+}
+
+
+
+

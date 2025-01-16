@@ -1,0 +1,39 @@
+﻿@model OVS.Models.Candidate
+@{
+    ViewData["Title"] = "Update Candidate";
+    Layout = "_AdminSidelayout";
+}
+
+<div class="container py-5">
+    <h1 class="fw-bold text-primary text-center">Update Candidate</h1>
+    <form method="post" action="@Url.Action("UpdateCandidate", "Candidate", new { id = Model.CandidateId })" class="p-3 mx-auto" style="max-width: 600px;">
+        <input type="hidden" name="CandidateId" value="@Model.CandidateId" />
+
+        <div class="mb-3">
+            <label for="Name" class="form-label">Candidate Name</label>
+            <input type="text" class="form-control" id="Name" name="Name" value="@Model.Name" required />
+        </div>
+
+        <div class="mb-3">
+            <label for="PartyAffiliation" class="form-label">Party Affiliation</label>
+            <input type="text" class="form-control" id="PartyAffiliation" name="PartyAffiliation" value="@Model.PartyAffiliation" required />
+        </div>
+
+        <div class="mb-3">
+            <label for="CNIC" class="form-label">CNIC</label>
+            <input type="text" class="form-control" id="CNIC" name="CNIC" value="@Model.CNIC" required />
+        </div>
+
+        <div class="mb-3">
+            <label for="ContactInfo" class="form-label">Contact Info</label>
+            <input type="text" class="form-control" id="ContactInfo" name="ContactInfo" value="@Model.ContactInfo" />
+        </div>
+
+        <div class="mb-3">
+            <label for="Manifesto" class="form-label">Manifesto</label>
+            <textarea class="form-control" id="Manifesto" name="Manifesto">@Model.Manifesto</textarea>
+        </div>
+
+        <button type="submit" class="btn btn-custom w-100">Update Candidate</button>
+    </form>
+</div>

@@ -1,0 +1,38 @@
+﻿@model OVS.Models.Election
+@{
+    ViewData["Title"] = "Edit Election";
+    Layout = "_AdminSidelayout";
+}
+
+<div class="container py-5">
+    <h1 class="fw-bold text-primary text-center">Edit Election</h1>
+    <form asp-action="Edit" method="post" class="p-3 mx-auto" style="max-width: 600px;">
+        <input type="hidden" asp-for="ElectionId" />
+        <div class="mb-3">
+            <label for="Name" class="form-label">Election Title</label>
+            <input type="text" class="form-control" id="Name" name="Title" value="@Model.Title" required>
+        </div>
+        <div class="mb-3">
+            <label for="Summary" class="form-label">Election Summary</label>
+            <textarea class="form-control" id="Summary" name="Summary" required>@Model.Summary</textarea>
+        </div>
+
+        <div class="mb-3">
+            <label for="Description" class="form-label">Election Description</label>
+            <textarea class="form-control" id="Description" name="Description" required>@Model.Description</textarea>
+        </div>
+        <div class="mb-3">
+            <label for="StartDate" class="form-label">Start Date</label>
+            <input type="datetime-local" class="form-control" id="StartDate" name="StartDate" value="@Model.StartDate.ToString("yyyy-MM-ddTHH:mm")" required>
+        </div>
+        <div class="mb-3">
+            <label for="EndDate" class="form-label">End Date</label>
+            <input type="datetime-local" class="form-control" id="EndDate" name="EndDate" value="@Model.EndDate.ToString("yyyy-MM-ddTHH:mm")" required>
+        </div>
+        <button type="submit" class="btn btn-custom w-100">Save Changes</button>
+    </form>
+    <form class="d-flex justify-content-center" asp-action="GetCandidates" asp-controller="Candidate" method="post">
+        <input type="hidden" asp-for="ElectionId"/>
+        <button type="submit" class="btn btn-warning">Show Candidates</button>
+    </form>
+</div>

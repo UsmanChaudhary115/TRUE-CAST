@@ -1,0 +1,88 @@
+﻿@model List<OVS.Models.Election>
+@{
+    ViewBag.Title = "Upcoming Elections";
+    Layout = "_UserSidelayout";
+}
+
+<div class="container mt-4 text-center pt-5" style="min-height: 100vh;">
+    <h1 class="mb-5 fw-bolder text-primary">@ViewBag.Title</h1>
+
+    <!-- Text Section with Image -->
+    <div class="row mb-5">
+        <div class="col-12 text-center position-relative" style="height: 50vh; background-image: url('@Url.Content("~/images/man-placing-box-his-ballot.jpg")'); background-size: cover; background-position: center; background-attachment: fixed;">
+            <div class="position-absolute top-50 start-50 translate-middle text-white px-4 py-3 bg-dark bg-opacity-50 rounded">
+                <h3 class="mb-3 fw-bold">Your Voice, Your Power</h3>
+                <p class="lead">Prepare to make a difference! Upcoming elections are your chance to shape the future by selecting leaders who represent your values and vision.</p>
+            </div>
+        </div>
+    </div>
+
+    @if (Model == null || !Model.Any())
+    {
+        <!-- No Upcoming Elections -->
+        <div class="alert alert-warning" role="alert">
+            <h4 class="alert-heading">No Upcoming Elections</h4>
+            <p>Currently, there are no upcoming elections available. Please check back later for updates.</p>
+        </div>
+    }
+    else
+    {
+        <!-- Upcoming Election List Section -->
+        <div class="row justify-content-center">
+            @foreach (var election in Model)
+            {
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card" style="border:none">
+                        <div class="card-body bg-black">
+                            <h5 class="card-title">@election.Title</h5>
+                            <p>
+                                <strong>Status:</strong>
+                                <span class="badge bg-primary">Upcoming</span>
+                            </p>
+                            <a href="@Url.Action("ElectionDetailsForUser", "Elections", new { id = election.ElectionId })" class="btn btn-custom">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+
+    <div class="container mt-4 text-center">
+        <!-- Live Elections Section -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="card card-glass">
+                    <div class="card-body">
+                        <h5 class="section-title">Switch to Live Elections</h5>
+                        <p class="lead">Looking for elections currently in progress? Head over to the live elections page to participate and cast your vote now!</p>
+                        <a href="@Url.Action("LiveElections", "Elections")" class="btn btn-custom">Go to Live Elections</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="card card-glass">
+                    <div class="card-body">
+                        <h5 class="section-title">Explore Election History</h5>
+                        <p class="lead">Interested in past elections? Dive into the archives to view the outcomes and details of completed elections.</p>
+                        <a href="@Url.Action("PreviousElections", "Elections")" class="btn btn-custom">Go to Previous Elections</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stay Updated Section -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card card-glass">
+                    <div class="card-body">
+                        <h5 class="section-title">Stay Updated</h5>
+                        <p class="lead">Never miss an election! Subscribe to our newsletter to receive notifications about live elections, voting procedures, and more.</p>
+                        <a href="#" class="btn btn-custom">Subscribe Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,39 @@
+﻿@model OVS.Models.Election
+@{
+    ViewData["Title"] = "Election Details";
+    Layout = "_UserSidelayout";
+}
+
+<div class="container py-5">
+    <h1 class=" d-flex justify-content-around fw-bold text-primary mb-5">Election Details</h1>
+    <div class="card mx-auto card-custom" style="border:none;">
+        <h2 class="d-flex justify-content-center fw-bolder">@Model.Title</h2>
+        <p class="bg-dark"><strong>Description:</strong> @Model.Description</p>
+        <p><strong>Start Date:</strong> @Model.StartDate.ToString("yyyy-MM-dd HH:mm")</p>
+        <p class="bg-dark"><strong>End Date:</strong> @Model.EndDate.ToString("yyyy-MM-dd HH:mm")</p>
+        <div>
+            <p><strong>Status: </strong>
+                @if (DateTime.Now >= @Model.StartDate && DateTime.Now <= @Model.EndDate)
+                {
+                    <span class="badge bg-success">Live</span>
+                }
+                else if (DateTime.Now > @Model.EndDate)
+                {
+                    <span class="badge bg-secondary">Completed</span>
+                    <div>
+                        <form asp-action="ShowResult" asp-controller="Elections" method="post">
+                            <input type="hidden" name="ElectionId" value="@Model.ElectionId" />
+                            <button type="submit" class="btn btn-warning">Show Result</button>
+                        </form>
+                    </div>
+
+                }
+                else if (DateTime.Now < @Model.StartDate)
+                {
+                    <span class="badge bg-danger">Not Started</span>
+                }
+
+            </p>
+        </div>
+    </div>
+</div>

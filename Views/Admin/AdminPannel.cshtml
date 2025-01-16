@@ -1,0 +1,103 @@
+﻿@model List<OVS.Models.ElectionResult>
+@{
+    Layout = "_AdminSideLayout";
+}
+<style>
+    .card {
+        background: none;
+        border: solid blue;
+        border-radius: 10px;
+        transition: transform 0.15s ease-in-out;
+    }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+</style>
+
+<body class="text-white">
+    <div class="container py-5">
+
+        <!-- Welcome Section -->
+        <div class="jumbotron text-center">
+            <h1 class="display-4"><span style="color: blue; font-family: Arial Black;">True Cast Admin Dashboard</span></h1>
+            <p class="lead">Manage elections, candidates, and view reports with confidence.</p>
+            <p class="lead">Ensure a seamless voting experience for all.</p>
+        </div>
+
+        <!-- Key Features Section -->
+        <div class="row">
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="section-title">Election Management</h5>
+                        <p>Create and schedule new elections, set eligibility criteria, and manage election details effortlessly.</p>
+                        <a asp-controller="Elections" asp-action="ElectionDashboardForAdmin" class="btn btn-custom">Manage Elections</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="section-title">Candidate Management</h5>
+                        <p>Add, update, or remove candidates and assign them to elections. Keep candidate information up to date.</p>
+                        <a asp-action="CandidateList" asp-controller="Candidate" class="btn btn-custom">Manage Candidates</a>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="text-center mb-5 fw-bold">Election Results for Admin</h1>
+
+        <!-- Election Results Table -->
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped table-hover">
+                <thead>
+                    <tr class="table-primary">
+                        <th scope="col">Election Title</th>
+                        <th scope="col">Start Date</th>
+                        <th scope="col">End Date</th>
+                        <th scope="col">Candidate Name</th>
+                        <th scope="col">Party Affiliation</th>
+                        <th scope="col">Votes Received</th>
+                        <th scope="col">Total Votes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model == null || !Model.Any())
+                    {
+                        <tr>
+                            <td colspan="7" class="text-center text-warning">No election results available.</td>
+                        </tr>
+                    }
+                    else
+                    {
+                        @foreach (var result in Model)
+                        {
+                            <tr class="text-white">
+                                <td>@result.ElectionTitle</td>
+                                <td>@result.ElectionStartDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                                <td>@result.ElectionEndDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                                <td>@result.CandidateName</td>
+                                <td>@result.CandidatePartyAffiliation</td>
+                                <td>@result.VotesReceived</td>
+                                <td>@result.TotalVotes</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Action Section -->
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-6 text-center">
+                <a href="@Url.Action("AdminPannel", "Admin")" class="btn btn-warning btn-lg">Refresh</a>
+            </div>
+        </div>
+    </div>
+</body>

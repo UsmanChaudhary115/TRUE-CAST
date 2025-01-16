@@ -1,0 +1,544 @@
+﻿<style>
+    .text-shadow {
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .card:hover{
+        border-color: white;
+        box-shadow: 0 0 10px aliceblue;
+    }
+</style>
+
+<div id="Home">
+</div>
+<!-- Card in Front of the Video -->
+<div class="card d-flex flex-column align-items-center justify-content-center p-4 text-center mx-auto card-custom"
+     style="max-width: 500px; border: none; position: absolute; z-index: 100; left: 25%; right:25%; top: 30%;">
+    <h4 class="text-shadow mb-2">Every Vote Counts</h4>
+    <h1 class="fw-bold text-primary text-shadow mb-3">Stand for Democracy</h1>
+    <div class="d-flex justify-content-center gap-3 mt-2">
+        <a class="btn btn-custom" asp-controller="User" asp-action="SignIn">Log In</a>
+    </div>
+    <p class="text-shadow mt-3 mb-0">
+        Don't have an account?
+        <a asp-controller="User" asp-action="Register">Register Here</a>
+    </p>
+</div>
+<div id="carouselExampleSlidesOnly" class="carousel slide mx-auto mt-5" data-bs-ride="carousel" data-bs-interval="5000" style="max-width: 100%;">
+    <div class="carousel-inner">
+        <!-- First Slide (Video) -->
+        <div class="carousel-item active">
+            <div class="container-fluid position-relative text-center py-5 justify-content-center align-content-center" style="height: 75vh; border-radius: 15px;">
+                <!-- Video Background -->
+                <video class="d-block w-100 position-absolute top-0 start-0" autoplay muted loop style="object-fit: cover; width: 100vw; height: 75vh;">
+                    <source src="@Url.Content("~/videos/2.mp4")" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+        <!-- Third Slide (Video) -->
+        <div class="carousel-item">
+            <div class="container-fluid position-relative text-center py-5 justify-content-center align-content-center" style="height: 75vh; border-radius: 15px;">
+                <!-- Video Background -->
+                <video class="d-block w-100 position-absolute top-0 start-0" autoplay muted loop style="object-fit: cover; width: 100vw; height: 75vh;">
+                    <source src="@Url.Content("~/videos/3.mp4")" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+        <!-- Fifth Slide (Video) -->
+        <div class="carousel-item">
+            <div class="container-fluid position-relative text-center py-5 justify-content-center align-content-center" style="height: 75vh; border-radius: 15px;">
+                <!-- Video Background -->
+                <video class="d-block w-100 position-absolute top-0 start-0" autoplay muted loop style="object-fit: cover; width: 100vw; height: 75vh;">
+                    <source src="@Url.Content("~/videos/1.mp4")" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+
+<div id="About"></div>
+
+<div class="container py-5 align-content-center mt-5">
+    <div class="row align-items-center g-4">
+        <div class="col-lg-12">
+            <div class="about-section text-center">
+                <h1 class="fw-bold">About Our Voting System</h1>
+                <p class="mt-3">
+                    Our online voting system aims to modernize the electoral process by replacing the traditional ballot system. Leveraging technology, this system enhances efficiency, reduces costs, and ensures transparency.
+                    It eliminates geographical barriers, simplifies vote casting, and accelerates result generation. Our solution is secure, scalable, and designed to meet the needs of contemporary elections.
+                </p>
+                <div class="row mt-5">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card mb-3 mb-md-5 shadow">
+                            <div class="card-body bg-black">
+                                <h5 class="card-title fw-bold">Secure Voting</h5>
+                                <p class="card-text">Advanced encryption ensures your vote remains confidential and tamper-proof.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card shadow mb-3 mb-md-5">
+                            <div class="card-body bg-black">
+                                <h5 class="card-title fw-bold">Faster Results</h5>
+                                <p class="card-text">Automated tallying provides instant results, eliminating delays.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card shadow mb-3 mb-md-5">
+                            <div class="card-body bg-black">
+                                <h5 class="card-title fw-bold">Cost Effective</h5>
+                                <p class="card-text">Save resources by replacing costly paper-based systems.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="StepsToVote"></div>
+
+<div class="container py-5 align-content-center" id="StepsToVote">
+    <div class="text-center m-5">
+        <h1 class="fw-bold">How to Vote</h1>
+        <p class="mt-3">Follow these simple steps to cast your vote online securely and efficiently.</p>
+    </div>
+    <div class="row g-4">
+        <div class="col-md-4 col-sm-6">
+            <div class="card shadow">
+                <div class="card-body bg-dark">
+                    <h5 class="card-title fw-bold">Step 1: Register</h5>
+                    <p class="card-text">Create an account using your email and voter ID to get started.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="card shadow">
+                <div class="card-body bg-dark">
+                    <h5 class="card-title fw-bold">Step 2: Log In</h5>
+                    <p class="card-text">Log in to your account and access the voting portal.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="card shadow">
+                <div class="card-body bg-dark">
+                    <h5 class="card-title fw-bold">Step 3: Cast Your Vote</h5>
+                    <p class="card-text">Choose your preferred candidate and submit your vote securely.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id ="Team"></div>
+<div class="container py-5 mt-5">
+    <div class="text-center mb-5">
+        <h1 class="fw-bold">Meet the Team</h1>
+        <p class="mt-3">Dedicated professionals working tirelessly to make elections seamless and secure.</p>
+    </div>
+    <div id="teamCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <!-- Carousel Items -->
+        <div class="carousel-inner">
+            <!-- Slide 4 (First slide) -->
+            <div class="carousel-item active">
+                <div class="row justify-content-center">
+                    <div class="col-md-3">
+                        <div class="card shadow" style="border: none;">
+                            <img src="@Url.Content("~/images/Anas.jpg")" class="card-img-top" alt="Anas" style="height: 250px; object-fit: cover;">
+                            <div class="card-body text-center bg-black">
+                                <h5 class="card-title fw-bold">Anas</h5>
+                                <p class="card-text">Project Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow" style="border: none;">
+                            <img src="@Url.Content("~/images/Usman.jpg")" class="card-img-top" alt="Usman" style="height: 250px; object-fit: cover;">
+                            <div class="card-body text-center bg-black">
+                                <h5 class="card-title fw-bold">Usman</h5>
+                                <p class="card-text">Frontend Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow" style="border: none;">
+                            <img src="@Url.Content("~/images/Ali.jpg")" class="card-img-top" alt="Ali" style="height: 250px; object-fit: cover;">
+                            <div class="card-body text-center bg-black">
+                                <h5 class="card-title fw-bold">Ali</h5>
+                                <p class="card-text">UI/UX Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 1 -->
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <div class="col-md-3">
+                        <div class="card shadow" style="border: none;">
+                            <img src="@Url.Content("~/images/Usman.jpg")" class="card-img-top" alt="Usman" style="height: 250px; object-fit: cover;">
+                            <div class="card-body text-center bg-black">
+                                <h5 class="card-title fw-bold">Usman</h5>
+                                <p class="card-text">Frontend Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow" style="border: none;">
+                            <img src="@Url.Content("~/images/Ali.jpg")" class="card-img-top" alt="Ali" style="height: 250px; object-fit: cover;">
+                            <div class="card-body text-center bg-black">
+                                <h5 class="card-title fw-bold">Ali</h5>
+                                <p class="card-text">UI/UX Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow" style="border: none;">
+                            <img src="@Url.Content("~/images/Cheema.jpg")" class="card-img-top" alt="Cheema" style="height: 250px; object-fit: cover;">
+                            <div class="card-body text-center bg-black">
+                                <h5 class="card-title fw-bold">Cheema</h5>
+                                <p class="card-text">Backend Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <div class="col-md-3">
+                        <div class="card shadow" style="border: none;">
+                            <img src="@Url.Content("~/images/Ali.jpg")" class="card-img-top" alt="Ali" style="height: 250px; object-fit: cover;">
+                            <div class="card-body text-center bg-black">
+                                <h5 class="card-title fw-bold">Ali</h5>
+                                <p class="card-text">UI/UX Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow" style="border: none;">
+                            <img src="@Url.Content("~/images/Cheema.jpg")" class="card-img-top" alt="Cheema" style="height: 250px; object-fit: cover;">
+                            <div class="card-body text-center bg-black">
+                                <h5 class="card-title fw-bold">Cheema</h5>
+                                <p class="card-text">Backend Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow" style="border: none;">
+                            <img src="@Url.Content("~/images/Anas.jpg")" class="card-img-top" alt="Anas" style="height: 250px; object-fit: cover;">
+                            <div class="card-body text-center bg-black">
+                                <h5 class="card-title fw-bold">Anas</h5>
+                                <p class="card-text">Project Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <div class="col-md-3">
+                        <div class="card shadow" style="border: none;">
+                            <img src="@Url.Content("~/images/Cheema.jpg")" class="card-img-top" alt="Cheema" style="height: 250px; object-fit: cover;">
+                            <div class="card-body text-center bg-black">
+                                <h5 class="card-title fw-bold">Cheema</h5>
+                                <p class="card-text">Backend Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow" style="border: none;">
+                            <img src="@Url.Content("~/images/Anas.jpg")" class="card-img-top" alt="Anas" style="height: 250px; object-fit: cover;">
+                            <div class="card-body text-center bg-black">
+                                <h5 class="card-title fw-bold">Anas</h5>
+                                <p class="card-text">Project Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow" style="border: none;">
+                            <img src="@Url.Content("~/images/Usman.jpg")" class="card-img-top" alt="Usman" style="height: 250px; object-fit: cover;">
+                            <div class="card-body text-center bg-black">
+                                <h5 class="card-title fw-bold">Usman</h5>
+                                <p class="card-text">Frontend Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#teamCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#teamCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="container py-5" id="Testimonials">
+    <div class="text-center mb-5">
+        <h1 class="fw-bold">What Our Users Say</h1>
+        <p class="mt-3">Hear from voters who have experienced our platform.</p>
+    </div>
+    <div class="row g-4">
+        <!-- Feedback 1 -->
+        <div class="col-md-4">
+            <div class="card shadow border-2 border-primary">
+                <div class="card-body bg-black">
+                    <p class="card-text">"The system is incredibly easy to use and made voting a hassle-free experience. Highly recommend!"</p>
+                    <h5 class="card-title text-end">- Emily R.</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Feedback 2 -->
+        <div class="col-md-4">
+            <div class="card shadow border-2 border-primary">
+                <div class="card-body bg-black">
+                    <p class="card-text">"Secure, efficient, and transparent. This is the future of voting!"</p>
+                    <h5 class="card-title text-end">- Mark T.</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Feedback 3 -->
+        <div class="col-md-4">
+            <div class="card shadow border-2 border-primary">
+                <div class="card-body bg-black">
+                    <p class="card-text">"I was able to vote from overseas without any issues. Fantastic platform!"</p>
+                    <h5 class="card-title text-end">- Sophia L.</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Feedback 4 -->
+        <div class="col-md-4">
+            <div class="card shadow border-2 border-primary">
+                <div class="card-body bg-black">
+                    <p class="card-text">"Voting has never been this simple and secure. Amazing!"</p>
+                    <h5 class="card-title text-end">- John D.</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Feedback 5 -->
+        <div class="col-md-4">
+            <div class="card shadow border-2 border-primary">
+                <div class="card-body bg-black">
+                    <p class="card-text">"The platform is intuitive and reliable. A great experience!"</p>
+                    <h5 class="card-title text-end">- Alice M.</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Feedback 6 -->
+        <div class="col-md-4">
+            <div class="card shadow border-2 border-primary">
+                <div class="card-body bg-black">
+                    <p class="card-text">"Impressed with the level of security and ease of use. Well done!"</p>
+                    <h5 class="card-title text-end">- David K.</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Feedback 7 -->
+        <div class="col-md-4">
+            <div class="card shadow border-2 border-primary">
+                <div class="card-body bg-black">
+                    <p class="card-text">"I love how accessible the system is for everyone. Great work!"</p>
+                    <h5 class="card-title text-end">- Olivia P.</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Feedback 8 -->
+        <div class="col-md-4">
+            <div class="card shadow border-2 border-primary">
+                <div class="card-body bg-black">
+                    <p class="card-text">"A user-friendly platform that ensures my vote counts. Highly recommended!"</p>
+                    <h5 class="card-title text-end">- Liam H.</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Feedback 9 -->
+        <div class="col-md-4">
+            <div class="card shadow border-2 border-primary">
+                <div class="card-body bg-black">
+                    <p class="card-text">"Thanks to this platform, I voted with complete confidence!"</p>
+                    <h5 class="card-title text-end">- Ava C.</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Feedback 10 -->
+        <div class="col-md-4">
+            <div class="card shadow border-2 border-primary">
+                <div class="card-body bg-black">
+                    <p class="card-text">"Seamless experience from start to finish. Thank you!"</p>
+                    <h5 class="card-title text-end">- Noah W.</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Feedback 11 -->
+        <div class="col-md-4">
+            <div class="card shadow border-2 border-primary">
+                <div class="card-body bg-black">
+                    <p class="card-text">"Exceptional platform with excellent features. Great job!"</p>
+                    <h5 class="card-title text-end">- Mia J.</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Feedback 12 -->
+        <div class="col-md-4">
+            <div class="card shadow border-2 border-primary">
+                <div class="card-body bg-black">
+                    <p class="card-text">"Highly impressed with the simplicity and security. Brilliant!"</p>
+                    <h5 class="card-title text-end">- Ethan B.</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Feedback 13 -->
+        <div class="col-md-4">
+            <div class="card shadow border-2 border-primary">
+                <div class="card-body bg-black">
+                    <p class="card-text">"Voting was smooth and hassle-free. Thank you for this platform!"</p>
+                    <h5 class="card-title text-end">- Harper V.</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Feedback 14 -->
+        <div class="col-md-4">
+            <div class="card shadow border-2 border-primary">
+                <div class="card-body bg-black">
+                    <p class="card-text">"A remarkable system that ensures transparency and ease of use."</p>
+                    <h5 class="card-title text-end">- Lucas S.</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Feedback 15 -->
+        <div class="col-md-4">
+            <div class="card shadow border-2 border-primary">
+                <div class="card-body bg-black">
+                    <p class="card-text">"The voting process was quick and straightforward. Excellent platform!"</p>
+                    <h5 class="card-title text-end">- Ella R.</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Feedback 16 -->
+        <div class="col-md-4">
+            <div class="card shadow border-2 border-primary">
+                <div class="card-body bg-black">
+                    <p class="card-text">"User-friendly interface and top-notch security. Highly recommended!"</p>
+                    <h5 class="card-title text-end">- Mason L.</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Feedback 17 -->
+        <div class="col-md-4">
+            <div class="card shadow border-2 border-primary">
+                <div class="card-body bg-black">
+                    <p class="card-text">"Fantastic system! I was able to vote without any confusion or delay."</p>
+                    <h5 class="card-title text-end">- Isabella T.</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Feedback 18 -->
+        <div class="col-md-4">
+            <div class="card shadow border-2 border-primary">
+                <div class="card-body bg-black">
+                    <p class="card-text">"A revolutionary platform that ensures every vote is counted."</p>
+                    <h5 class="card-title text-end">- James K.</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Feedback 19 -->
+        <div class="col-md-4">
+            <div class="card shadow border-2 border-primary">
+                <div class="card-body bg-black">
+                    <p class="card-text">"The perfect blend of technology and democracy. Well done!"</p>
+                    <h5 class="card-title text-end">- Amelia N.</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Feedback 20 -->
+        <div class="col-md-4">
+            <div class="card shadow border-2 border-primary">
+                <div class="card-body bg-black card-custom">
+                    <p class="card-text">"Voting has never been easier. Thank you for this incredible platform!"</p>
+                    <h5 class="card-title text-end">- Logan F.</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="container-fluid position-relative text-center py-5 position-relative justify-content-center align-content-center" id="ContactUs"
+     style="background-image: url('@Url.Content("~/images/contact-3994013.jpg")');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;">
+    <div class="row justify-content-center mg-">
+        <div class="col-lg-6 col-md-8">
+            <div class="card shadow-lg card-custom" style="border: none;">
+                <div class="card-body p-2 text-white">
+                    <h1 class="fw-bold text-primary text-center text-shadow">Contact Us</h1>
+                    <form asp-action="SendMessage" method="post" class="mt-4">
+                        <!-- Full Name -->
+                        <div class="mb-4">
+                            <label for="Name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control form-control-lg bg-transparent" id="Name" name="Name"
+                                   placeholder="Enter your full name" required>
+                        </div>
+                        <!-- Email -->
+                        <div class="mb-4">
+                            <label for="Email" class="form-label">Email</label>
+                            <input type="email" class="form-control form-control-lg bg-transparent" id="Email" name="Email"
+                                   placeholder="Enter your email" required>
+                        </div>
+                        <!-- Message -->
+                        <div class="mb-4">
+                            <label for="Message" class="form-label">Message</label>
+                            <textarea class="form-control form-control-lg bg-transparent" id="Message" name="Message"
+                                      rows="4" placeholder="Enter your message" required></textarea>
+                        </div>
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-custom w-100 py-3 fw-bold">Send Message</button>
+                    </form>
+                    <p class="text-center mt-4">
+                        Need immediate help? Visit our
+                        <a asp-action="FAQs" asp-controller="Home" class="text-primary text-decoration-underline">FAQs page</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

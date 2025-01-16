@@ -1,0 +1,121 @@
+﻿@model OVS.Models.User
+@{
+    ViewData["Title"] = "Edit Profile";
+    Layout = "_UserSidelayout";
+}
+
+<style>
+    .profile-picture-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        padding: 25px;
+        text-align: center;
+        margin-bottom: 50px;
+        overflow: hidden;
+    }
+
+        .profile-picture-section img {
+            width: 12rem;
+            height: 12rem;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid aliceblue;
+            transition: transform 0.2s ease-in-out;
+        }
+
+            .profile-picture-section img:hover {
+                border-color: aliceblue;
+                box-shadow: 0 4px 12px rgba(255, 255, 255, 0.5);
+            }
+</style>
+
+<div class="container py-5">
+    <h1 class="fw-bold text-primary text-center mb-4">Edit Profile</h1>
+    <form asp-action="EditProfile" method="post" enctype="multipart/form-data" class="p-4 rounded shadow bg-dark mx-auto" style="max-width: 800px;">
+        <input type="hidden" asp-for="Id" />
+        <div class="profile-picture-section bg-dark">
+            <img src="@Url.Content("~/images/" + (Model.ProfilePicture ?? "default-profile-picture.jpg"))" alt="Profile Picture" class="profile-picture">
+        </div>
+        <h2 class="text-center text-white mb-4 fw-bolder">@Model.FirstName @Model.LastName</h2>
+        <!-- Personal Information Section -->
+        <div class="mb-4">
+            <h4 class="text-secondary border-bottom pb-2">Personal Information</h4>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label for="FirstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="FirstName" asp-for="FirstName" required />
+                </div>
+                <div class="col-md-6">
+                    <label for="LastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="LastName" asp-for="LastName" required />
+                </div>
+                <div class="col-md-6">
+                    <label for="DateOfBirth" class="form-label">Date of Birth</label>
+                    <input type="date" class="form-control" id="DateOfBirth" asp-for="DateOfBirth" required />
+                </div>
+                <div class="col-md-6">
+                    <label for="Gender" class="form-label">Gender</label>
+                    @Html.DropDownListFor(model => model.Gender, new SelectList(new[] { "Male", "Female", "Other" }), new { @class = "form-select" })
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Information Section -->
+        <div class="mb-4">
+            <h4 class="text-secondary border-bottom pb-2">Contact Information</h4>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label for="Email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="Email" asp-for="Email" required />
+                </div>
+                <div class="col-md-6">
+                    <label for="PhoneNumber" class="form-label">Phone Number</label>
+                    <input type="text" class="form-control" id="PhoneNumber" asp-for="PhoneNumber" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Address Section -->
+        <div class="mb-4">
+            <h4 class="text-secondary border-bottom pb-2">Address</h4>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label for="Street" class="form-label">Street</label>
+                    <input type="text" class="form-control" id="Street" asp-for="Street" />
+                </div>
+                <div class="col-md-6">
+                    <label for="City" class="form-label">City</label>
+                    <input type="text" class="form-control" id="City" asp-for="City" />
+                </div>
+                <div class="col-md-6">
+                    <label for="State" class="form-label">State</label>
+                    <input type="text" class="form-control" id="State" asp-for="State" />
+                </div>
+                <div class="col-md-6">
+                    <label for="ZipCode" class="form-label">Zip Code</label>
+                    <input type="text" class="form-control" id="ZipCode" asp-for="ZipCode" />
+                </div>
+                <div class="col-12">
+                    <label for="Country" class="form-label">Country</label>
+                    <input type="text" class="form-control" id="Country" asp-for="Country" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Profile Picture Section -->
+        <div class="mb-4">
+            <h4 class="text-secondary border-bottom pb-2">Profile Picture</h4>
+            <div>
+                <label for="ProfilePicture" class="form-label">Upload New Profile Picture</label>
+                <input type="file" class="form-control" id="ProfilePicture" name="ProfilePicture" />
+            </div>
+        </div>
+
+        <!-- Save Changes Button -->
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary w-100 py-2">Save Changes</button>
+        </div>
+    </form>
+</div>

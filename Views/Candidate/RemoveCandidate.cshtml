@@ -1,0 +1,23 @@
+﻿@model OVS.Models.Candidate
+@{
+    ViewData["Title"] = "Remove Candidate";
+    Layout = "_AdminSidelayout";
+}
+
+<div class="container py-5">
+    <h1 class="fw-bold text-danger text-center">Remove Candidate</h1>
+    <div class="card mx-auto" style="max-width: 600px; padding: 20px; border: none;">
+        <h2>Are you sure you want to remove this candidate?</h2>
+        <p><strong>Name:</strong> @Model.Name</p>
+        <p><strong>Party:</strong> @Model.PartyAffiliation</p>
+        <p><strong>CNIC:</strong> @Model.CNIC</p>
+        <p><strong>Contact Info:</strong> @Model.ContactInfo</p>
+        <p><strong>Manifesto:</strong> @Model.Manifesto</p>
+        <div>
+            <form method="post" action="@Url.Action("RemoveCandidateConfirmed", "Candidate", new { id = Model.CandidateId })" style="display:inline;">
+                <button type="submit" class="btn btn-danger" aria-label="Confirm remove candidate">Yes, Remove</button>
+            </form>
+            <a href="@Url.Action("CandidateList", "Candidate")" class="btn btn-secondary mt-2" aria-label="Cancel and return to candidate list">Cancel</a>
+        </div>
+    </div>
+</div>

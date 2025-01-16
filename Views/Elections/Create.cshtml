@@ -1,0 +1,32 @@
+﻿@model OVS.Models.Election
+@{
+    ViewData["Title"] = "Create Election";
+    Layout = "_AdminSidelayout";
+}
+
+<div class="container py-5">
+    <h1 class="fw-bold text-primary text-center">Create New Election</h1>
+    <form asp-action="Create" method="post" class="p-3 mx-auto" style="max-width: 600px;">
+        <div class="mb-3">
+            <label for="Name" class="form-label">Election Ttile</label>
+            <input type="text" class="form-control" id="Name" name="Title" required>
+        </div>
+        <div class="mb-3">
+            <label for="Summary" class="form-label">Election Summary</label>
+            <input type="text" class="form-control" id="Summary" name="Summary" required>
+        </div>
+        <div class="mb-3">
+            <label for="Type" class="form-label">Election Description</label>
+            <input type="text" class="form-control" id="Type" name="Description" required>
+        </div>
+        <div class="mb-3">
+            <label for="StartDate" class="form-label">Start Date</label>
+            <input type="datetime-local" class="form-control" id="StartDate" name="StartDate" required>
+        </div>
+        <div class="mb-3">
+            <label for="EndDate" class="form-label">End Date</label>
+            <input type="datetime-local" class="form-control" id="EndDate" name="EndDate" required>
+        </div>
+        <button type="submit" class="btn btn-custom w-100">Create Election</button>
+    </form>
+</div>

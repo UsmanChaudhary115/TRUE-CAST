@@ -1,0 +1,91 @@
+﻿@model List<OVS.Models.Election>
+@{
+    ViewBag.Title = "Previous Elections";
+    Layout = "_UserSidelayout";
+}
+
+<div class="container mt-4 text-center pt-5" style="min-height: 100vh;">
+    <h1 class="mb-5 fw-bolder text-primary">@ViewBag.Title</h1>
+
+    <!-- Text Section with Image -->
+    <div class="row mb-5">
+        <div class="col-12 text-center position-relative"
+             style="height: 50vh; background-image: url('@Url.Content("~/images/man-placing-box-his-ballot.jpg")');
+                    background-size: cover; background-position: center; background-attachment: fixed;">
+            <div class="position-absolute top-50 start-50 translate-middle text-white px-4 py-3 bg-dark bg-opacity-50 rounded">
+                <h3 class="mb-3 fw-bold">Reflect on the Past</h3>
+                <p class="lead">Explore the outcomes of past elections and understand the journey of democracy through the decisions of voters.</p>
+            </div>
+        </div>
+    </div>
+
+    @if (Model == null || !Model.Any())
+    {
+        <!-- No Previous Elections -->
+        <div class="alert alert-warning" role="alert">
+            <h4 class="alert-heading">No Previous Elections</h4>
+            <p>There are no past elections to display at the moment. Please check back later for historical data.</p>
+        </div>
+    }
+    else
+    {
+        <!-- Previous Election List Section -->
+        <div class="row justify-content-center">
+            @foreach (var election in Model)
+            {
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card border-0 shadow-lg">
+                        <div class="card-body bg-black text-white rounded">
+                            <h5 class="card-title">@election.Title</h5>
+                            <p>
+                                <strong>Status:</strong>
+                                <span class="badge bg-secondary">Completed</span>
+                            </p>
+                            <a href="@Url.Action("ElectionDetailsForUser", "Elections", new { id = election.ElectionId })"
+                               class="btn btn-custom btn-outline-light">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+
+    <!-- Additional Sections -->
+    <div class="row mt-5">
+        <div class="col-12">
+            <div class="card card-glass">
+                <div class="card-body">
+                    <h5 class="section-title">Switch to Live Elections</h5>
+                    <p class="lead">Looking for elections currently in progress? Head over to the live elections page to participate and cast your vote now!</p>
+                    <a href="@Url.Action("LiveElections", "Elections")" class="btn btn-custom">Go to Live Elections</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-12">
+            <div class="card card-glass shadow">
+                <div class="card-body">
+                    <h5 class="section-title">Explore Upcoming Elections</h5>
+                    <p class="lead">Curious about the future? Head over to the upcoming elections page to see what lies ahead and how you can participate!</p>
+                    <a href="@Url.Action("UpcomingElections", "Elections")" class="btn btn-custom">Go to Upcoming Elections</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-12">
+            <div class="card card-glass shadow">
+                <div class="card-body">
+                    <h5 class="section-title">Stay Connected</h5>
+                    <p class="lead">Keep yourself informed with our latest updates. Subscribe to receive notifications about upcoming elections, results, and more.</p>
+                    <a href="#" class="btn btn-custom">Subscribe Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,126 @@
+﻿@using System.Text.Json
+@using OVS.Models
+
+@{
+    // Initialize user as null
+    User user = null;
+
+    // Retrieve the UserDetails cookie
+    var userDetails = Context.Request.Cookies["UserDetails"];
+
+    // Check if the cookie exists and is not empty
+    if (!string.IsNullOrEmpty(userDetails))
+    {
+        user = JsonSerializer.Deserialize<User>(userDetails);
+    }
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - OVS</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/OVS.styles.css" asp-append-version="true" />
+    <!-- Font Awesome CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        .logo-image {
+            height: 40px;
+            width: 40px;
+        }
+
+        .logo-text {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: aliceblue;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body style="background-color:black; color: white; display: flex; flex-direction: column; min-height: 100vh;">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-custom">
+            <div class="container">
+                <!-- Logo Section -->
+                <a class="navbar-brand d-flex align-items-center" asp-action="UserLogInInterface" asp-controller="Home">
+                    <img src="~/images/logo.png" alt="Logo" class="logo-image me-2" />
+                    <span class="logo-text">OVS</span>
+                </a>
+
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav ms-auto">
+                        <a class="btn nav-button" asp-action="UserPannel" asp-controller="User">User Pannel</a>
+                        <a class="btn nav-button" asp-action="SignOut" asp-controller="User">Sign Out</a>
+                        <a asp-action="Profile" asp-controller="User" class="btn">
+                            <img class="rounded-circle logo-image border border-white border-2" src="@Url.Content("~/images/" + (user?.ProfilePicture ?? "default-profile-picture.jpg"))" alt="Profile Picture">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="navbar-margin" style="flex: 1;">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="text-center" style="background-color: black; color: white; padding: 20px 0;">
+        <!-- Grid container -->
+        <div class="container pt-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button" data-mdb-ripple-color="light">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <!-- Twitter -->
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button" data-mdb-ripple-color="dark">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <!-- Google -->
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button" data-mdb-ripple-color="dark">
+                    <i class="fab fa-google"></i>
+                </a>
+
+                <!-- Instagram -->
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button" data-mdb-ripple-color="dark">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button" data-mdb-ripple-color="dark">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <!-- Github -->
+                <a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button" data-mdb-ripple-color="dark">
+                    <i class="fab fa-github"></i>
+                </a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+        <!-- Copyright -->
+        <div class="text-center text-light p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © @DateTime.Now.Year Copyright:
+            <a class="text-light" asp-action="UserLogInInterface" asp-controller="User">TrueCast.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

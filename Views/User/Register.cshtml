@@ -1,0 +1,81 @@
+﻿@model OVS.Models.User
+@{
+    ViewData["Title"] = "Registration";
+    Layout = "_UserSidelayout";
+}
+
+<div class="container-fluid" style="padding-top: 15vh;">
+    <div class="row align-items-center">
+        <!-- Flash Card Section -->
+        <div class="col-lg-6 col-md-12">
+            <div class="d-flex justify-content-center align-items-center" style="min-height: auto;">
+                <div class="mx-auto" style="max-width: 600px; border-radius: 10px; background:none;">
+                    <div class="card-body text-center text-light" style="padding: 20px;">
+                        <h1 class="card-title display-4">
+                            Welcome to <span style="color: blue; font-family: 'Arial Black';">True Cast</span>
+                        </h1>
+                        <p class="lead">Create your account to participate in secure elections.</p>
+                        <p>It's easy, fast, and secure!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Form Section -->
+        <div class="col-lg-6 col-md-12">
+            <div class="text-center" style="padding-top: 20px; font-family: 'Times New Roman';">
+                <h1 class="fw-bold text-primary">Create Your Account</h1>
+
+                <!-- Display TempData Message if Available -->
+                @if (TempData["Message"] != null)
+                {
+                    <div class="alert alert-warning mt-3">
+                        @TempData["Message"]
+                    </div>
+                    var count = @TempData.Remove("Message");
+                }
+
+                <!-- Form for User Registration -->
+                <form asp-controller="User" asp-action="Register" method="post" class="p-3" style="max-width: 400px; margin: 0 auto;">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="UserName" name="UserName" placeholder="Enter Username" value="@Model?.UserName" required />
+                        <label for="UserName">Username</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="FirstName" name="FirstName" placeholder="Enter your first name" value="@Model?.FirstName" required />
+                        <label for="FirstName">First Name</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="LastName" name="LastName" placeholder="Enter your last name" value="@Model?.LastName" required />
+                        <label for="LastName">Last Name</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="Email" name="Email" placeholder="Enter your email" value="@Model?.Email" required />
+                        <label for="Email">Email Address</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="Password" name="Password" placeholder="Enter a strong password" required />
+                        <label for="Password">Password</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="ConfirmPassword" name="ConfirmPassword" placeholder="Confirm password" required />
+                        <label for="ConfirmPassword">Confirm Password</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100">Register</button>
+                </form>
+
+                <!-- Link to Login Page -->
+                <p class="mt-3 text-center">
+                    Already have an account?
+                    <a asp-controller="User" asp-action="SignIn" class="text-decoration-none text-primary fw-bold">Login here</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
