@@ -5853,11 +5853,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\5th semester\\Web\\OVS final\\OVS.csproj",
+      "projectUniqueName": "D:\\5th semester\\OVS final\\OVS.csproj",
       "projectName": "OVS",
-      "projectPath": "D:\\5th semester\\Web\\OVS final\\OVS.csproj",
+      "projectPath": "D:\\5th semester\\OVS final\\OVS.csproj",
       "packagesPath": "C:\\Users\\Usman\\.nuget\\packages\\",
-      "outputPath": "D:\\5th semester\\Web\\OVS final\\obj\\",
+      "outputPath": "D:\\5th semester\\OVS final\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

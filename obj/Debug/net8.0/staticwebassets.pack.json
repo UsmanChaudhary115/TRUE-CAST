@@ -1,375 +1,391 @@
 {
   "Files": [
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OVS.bundle.scp.css",
+      "Id": "D:\\5th semester\\OVS final\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OVS.bundle.scp.css",
       "PackagePath": "staticwebassets\\OVS.3ktskmijwk.bundle.scp.css"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\css\\site.css",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\favicon.ico",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\-260nw-1931454899.jpg",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\-260nw-1931454899.jpg",
       "PackagePath": "staticwebassets\\images\\-260nw-1931454899.jpg"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\04846747-9185-4edf-b44d-a00401197701.png",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\04846747-9185-4edf-b44d-a00401197701.png",
       "PackagePath": "staticwebassets\\images\\04846747-9185-4edf-b44d-a00401197701.png"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\381e618c-9add-4d4b-85da-c32ba948bf06.jpg",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\381e618c-9add-4d4b-85da-c32ba948bf06.jpg",
       "PackagePath": "staticwebassets\\images\\381e618c-9add-4d4b-85da-c32ba948bf06.jpg"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\418fb268-9076-4a38-ba09-a6d64f6e76aa.jpeg",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\418fb268-9076-4a38-ba09-a6d64f6e76aa.jpeg",
       "PackagePath": "staticwebassets\\images\\418fb268-9076-4a38-ba09-a6d64f6e76aa.jpeg"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\4e3fd3fc-3389-426f-bfaf-5d8666ff5844.JPG",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\43efa819-5a9a-4142-a208-4ab61c1d62aa.jpeg",
+      "PackagePath": "staticwebassets\\images\\43efa819-5a9a-4142-a208-4ab61c1d62aa.jpeg"
+    },
+    {
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\4e3fd3fc-3389-426f-bfaf-5d8666ff5844.JPG",
       "PackagePath": "staticwebassets\\images\\4e3fd3fc-3389-426f-bfaf-5d8666ff5844.JPG"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\9052f408-10cd-4985-b8cc-77dbe3b50b77.jpg",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\9052f408-10cd-4985-b8cc-77dbe3b50b77.jpg",
       "PackagePath": "staticwebassets\\images\\9052f408-10cd-4985-b8cc-77dbe3b50b77.jpg"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\99012186-2af1-48d3-83ce-1e04376af52e.jpeg",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\99012186-2af1-48d3-83ce-1e04376af52e.jpeg",
       "PackagePath": "staticwebassets\\images\\99012186-2af1-48d3-83ce-1e04376af52e.jpeg"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\Ali.jpg",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\Ali.jpg",
       "PackagePath": "staticwebassets\\images\\Ali.jpg"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\Anas.JPG",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\Anas.JPG",
       "PackagePath": "staticwebassets\\images\\Anas.JPG"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\Cartoon character design with_6421282.png",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\Cartoon character design with_6421282.png",
       "PackagePath": "staticwebassets\\images\\Cartoon character design with_6421282.png"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\Cheema.jpg",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\Cheema.jpg",
       "PackagePath": "staticwebassets\\images\\Cheema.jpg"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\Hand putting voting bulletin into box.jpg",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\Hand putting voting bulletin into box.jpg",
       "PackagePath": "staticwebassets\\images\\Hand putting voting bulletin into box.jpg"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\Usman.jpg",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\Usman.jpg",
       "PackagePath": "staticwebassets\\images\\Usman.jpg"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\about-us.jpg",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\about-us.jpg",
       "PackagePath": "staticwebassets\\images\\about-us.jpg"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\b14c7c2e-af5f-4019-a1ce-16036181f992.png",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\b14c7c2e-af5f-4019-a1ce-16036181f992.png",
       "PackagePath": "staticwebassets\\images\\b14c7c2e-af5f-4019-a1ce-16036181f992.png"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\background-protect-system-innovation-vector-illustration-large.jpg",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\background-protect-system-innovation-vector-illustration-large.jpg",
       "PackagePath": "staticwebassets\\images\\background-protect-system-innovation-vector-illustration-large.jpg"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\bfaffdea-4ffe-4fad-87b5-198d0e3ab5d7.png",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\bfaffdea-4ffe-4fad-87b5-198d0e3ab5d7.png",
       "PackagePath": "staticwebassets\\images\\bfaffdea-4ffe-4fad-87b5-198d0e3ab5d7.png"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\contact-3994013.jpg",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\contact-3994013.jpg",
       "PackagePath": "staticwebassets\\images\\contact-3994013.jpg"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\d9e2bfc7-948a-4363-896b-e04f61aa4611.png",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\d9e2bfc7-948a-4363-896b-e04f61aa4611.png",
       "PackagePath": "staticwebassets\\images\\d9e2bfc7-948a-4363-896b-e04f61aa4611.png"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\default-profile-picture.jpg",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\default-profile-picture.jpg",
       "PackagePath": "staticwebassets\\images\\default-profile-picture.jpg"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\e6710bb1-b731-49fc-b673-5c06a995f13c.JPG",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\e6710bb1-b731-49fc-b673-5c06a995f13c.JPG",
       "PackagePath": "staticwebassets\\images\\e6710bb1-b731-49fc-b673-5c06a995f13c.JPG"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\election-blue-political-background.jpg",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\election-blue-political-background.jpg",
       "PackagePath": "staticwebassets\\images\\election-blue-political-background.jpg"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\logo.png",
-      "PackagePath": "staticwebassets\\images\\logo.png"
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\feedback-form.jpg",
+      "PackagePath": "staticwebassets\\images\\feedback-form.jpg"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\man in shirt smiles and_13146336.png",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\feedback.jpg",
+      "PackagePath": "staticwebassets\\images\\feedback.jpg"
+    },
+    {
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\logoNew.png",
+      "PackagePath": "staticwebassets\\images\\logoNew.png"
+    },
+    {
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\man in shirt smiles and_13146336.png",
       "PackagePath": "staticwebassets\\images\\man in shirt smiles and_13146336.png"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\man-placing-box-his-ballot.jpg",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\man-placing-box-his-ballot.jpg",
       "PackagePath": "staticwebassets\\images\\man-placing-box-his-ballot.jpg"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\pexels-pixabay-60504.jpg",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\pexels-pixabay-60504.jpg",
       "PackagePath": "staticwebassets\\images\\pexels-pixabay-60504.jpg"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\school-5711987.jpg",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\school-5711987.jpg",
       "PackagePath": "staticwebassets\\images\\school-5711987.jpg"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\vote-slogan.png",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\vote-slogan.png",
       "PackagePath": "staticwebassets\\images\\vote-slogan.png"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\vote.png",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\images\\vote.png",
       "PackagePath": "staticwebassets\\images\\vote.png"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\js\\site.js",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\videos\\1.mp4",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\logo.png",
+      "PackagePath": "staticwebassets\\logo.png"
+    },
+    {
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\videos\\1.mp4",
       "PackagePath": "staticwebassets\\videos\\1.mp4"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\videos\\2.mp4",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\videos\\2.mp4",
       "PackagePath": "staticwebassets\\videos\\2.mp4"
     },
     {
-      "Id": "D:\\5th semester\\Web\\OVS final\\wwwroot\\videos\\3.mp4",
+      "Id": "D:\\5th semester\\OVS final\\wwwroot\\videos\\3.mp4",
       "PackagePath": "staticwebassets\\videos\\3.mp4"
     },
     {

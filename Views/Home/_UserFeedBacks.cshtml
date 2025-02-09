@@ -1,0 +1,30 @@
+﻿@model List<OVS.Models.FeedbackModel>
+
+<div class="container py-5" id="Testimonials">
+    <div class="text-center mb-5">
+        <h1 class="fw-bold">What Our Users Say</h1>
+        <p class="mt-3">Hear from voters who have experienced our platform.</p>
+    </div>
+    @if (Model == null || !Model.Any())
+    {
+        <div class="text-center">
+            <p class="text-muted">No feedback available at the moment. Be the first to share your experience!</p>
+        </div>
+    }
+    else
+    {
+        <div class="row g-4">
+            @foreach (var feedback in Model)
+            {
+                <div class="col-md-4">
+                    <div class="card shadow border-2 border-primary">
+                        <div class="card-body bg-black">
+                            <p class="card-text">@feedback.Feedback</p>
+                            <h5 class="card-title text-end">- @feedback.Name</h5>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

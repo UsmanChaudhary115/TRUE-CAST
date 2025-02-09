@@ -1,0 +1,93 @@
+﻿@model List<OVS.Models.Election>
+
+<!-- Election Table for Large Screens -->
+<div class="d-none d-md-block">
+    <!-- Hidden on mobile, shown on larger screens -->
+    <div class="table-responsive">
+        <table class="table table-dark table-striped table-bordered text-center">
+            <thead class="table-primary">
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Summary</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Any())
+                {
+                    int counter = 1;
+                    foreach (var election in Model)
+                    {
+                        <tr>
+                            <td>@counter</td>
+                            <td>@election.Title</td>
+                            <td>@election.Summary</td>
+                            <td>
+                                <div class="btn-group" role="group">
+                                    <a asp-action="ElectionDetailsForAdmin" asp-route-id="@election.ElectionId" class="btn btn-info btn-sm mb-2 mb-md-0 me-md-2">View</a>
+                                    <a asp-action="Edit" asp-route-id="@election.ElectionId" class="btn btn-warning btn-sm mb-2 mb-md-0 me-md-2">Edit</a>
+                                    <a asp-action="Delete" asp-route-id="@election.ElectionId" class="btn btn-danger btn-sm mb-2 mb-md-0">Delete</a>
+                                </div>
+                            </td>
+                        </tr>
+                        counter++; // Increment the counter
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="4">No elections available.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Election Cards for Mobile Screens -->
+<div class="d-block d-md-none">
+    <!-- Visible only on mobile -->
+    <div class="row">
+        @if (Model.Any())
+        {
+            foreach (var election in Model)
+            {
+                <div class="col-12 mb-4">
+                    <div class="card" style="border: none;">
+                        <div class="card-body">
+                            <h2 class="card-title fw-bolder">@election.Title</h2>
+                            <p class="card-text bg-dark"><strong>Summary:</strong> @election.Summary</p>
+                            <p class="card-text"><strong>Start Date:</strong> @election.StartDate.ToString("yyyy-MM-dd HH:mm")</p>
+                            <p class="card-text bg-dark"><strong>End Date:</strong> @election.EndDate.ToString("yyyy-MM-dd HH:mm")</p>
+                            <p class="card-text">
+                                <strong>Status:</strong>
+                                @if (election.IsLive)
+                                {
+                                    <span class="badge bg-success">Live</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-secondary">Not Live</span>
+                                }
+                            </p>
+                            <div class="btn-group d-flex justify-content-start" role="group">
+                                <a asp-action="ElectionDetailsForAdmin" asp-route-id="@election.ElectionId" class="btn btn-info btn-sm mb-2 mb-md-0 me-2">View</a>
+                                <a asp-action="Edit" asp-route-id="@election.ElectionId" class="btn btn-warning btn-sm mb-2 mb-md-0 me-2">Edit</a>
+                                <a asp-action="Delete" asp-route-id="@election.ElectionId" class="btn btn-danger btn-sm mb-2 mb-md-0">Delete</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="col-12">
+                <div class="alert alert-warning" role="alert">
+                    No elections available.
+                </div>
+            </div>
+        }
+    </div>
+</div>

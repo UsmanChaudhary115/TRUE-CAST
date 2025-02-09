@@ -116,13 +116,14 @@ body {
 }
 
 .navbar-custom {
-    background-color: rgba(0,0,0); /* Semi-transparent white background */
+    background-color: rgba(0,0,0, 0.3); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Blurs the background behind the element */
     border: none;
     padding: 10px 20px; /* Adjust padding to fit your navbar */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
 .card-custom {
-    background-color: rgba(255,255,255, 0.3); /* Semi-transparent white background */
+    background-color: rgba(0,0, 255, 0.3); /* Semi-transparent white background */
     backdrop-filter: blur(10px); /* Blurs the background behind the element */
     border: 1px solid rgba(255, 255, 255, 0.2); /* Light border to enhance the glass effect */
     border-radius: 8px; /* Optional: Adds rounded corners */
@@ -144,7 +145,7 @@ body {
 }
 
 .form-control:focus {
-    background-color: #000; /* White background on focus */
+    background-color: black; /* White background on focus */
     color: #fff; /* Black text on focus */
     border-color: white; /* Keep the same border color */
     box-shadow: 0 0 5px aliceblue; /* Optional: Add a shadow effect */
@@ -166,6 +167,7 @@ body {
     background-color: darkblue;
     color: white;
 }
+
 
 .card {
     background: none;

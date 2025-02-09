@@ -58,6 +58,36 @@
             </div>
         </div>
 
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Left Section: Message -->
+                <div class="col-md-6 d-flex align-items-center justify-content-center py-5">
+                    <div class="text-center">
+                        <h1 class="fw-bold">We Value Your Feedback</h1>
+                        <p class="mt-3">Please take a moment to share your thoughts and help us improve our platform.</p>
+                    </div>
+                </div>
+
+                <!-- Right Section: Feedback Form with Background Image -->
+                <div class="col-md-6 d-flex align-items-center justify-content-center py-5"
+                     style="background-image: url('@Url.Content("~/images/feedback-form.jpg")'); background-size: cover; background-position: center; background-attachment: fixed;">
+                    <div class="card-custom shadow-lg border-0" style="width: 100%; max-width: 400px;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-light fw-bold">Submit Your Feedback</h5>
+                            <form asp-action="SubmitFeedback" asp-controller="Home" method="post">
+                                <div class="mb-4">
+                                    <textarea class="form-control form-control-lg bg-transparent text-light" id="Message" name="Message"
+                                              rows="4" placeholder="Enter your feedback" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-custom w-100 py-3 fw-bold">Submit Feedback</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
         <!-- Election Guidelines Section -->
         <div class="row mt-4">
             <div class="col-12 mb-4">

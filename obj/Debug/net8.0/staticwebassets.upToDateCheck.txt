@@ -4,6 +4,7 @@ wwwroot\images\04846747-9185-4edf-b44d-a00401197701.png
 wwwroot\images\-260nw-1931454899.jpg
 wwwroot\images\381e618c-9add-4d4b-85da-c32ba948bf06.jpg
 wwwroot\images\418fb268-9076-4a38-ba09-a6d64f6e76aa.jpeg
+wwwroot\images\43efa819-5a9a-4142-a208-4ab61c1d62aa.jpeg
 wwwroot\images\4e3fd3fc-3389-426f-bfaf-5d8666ff5844.JPG
 wwwroot\images\9052f408-10cd-4985-b8cc-77dbe3b50b77.jpg
 wwwroot\images\99012186-2af1-48d3-83ce-1e04376af52e.jpeg
@@ -20,8 +21,10 @@ wwwroot\images\d9e2bfc7-948a-4363-896b-e04f61aa4611.png
 wwwroot\images\default-profile-picture.jpg
 wwwroot\images\e6710bb1-b731-49fc-b673-5c06a995f13c.JPG
 wwwroot\images\election-blue-political-background.jpg
+wwwroot\images\feedback.jpg
+wwwroot\images\feedback-form.jpg
 wwwroot\images\Hand putting voting bulletin into box.jpg
-wwwroot\images\logo.png
+wwwroot\images\logoNew.png
 wwwroot\images\man in shirt smiles and_13146336.png
 wwwroot\images\man-placing-box-his-ballot.jpg
 wwwroot\images\pexels-pixabay-60504.jpg
@@ -87,6 +90,7 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\logo.png
 wwwroot\videos\1.mp4
 wwwroot\videos\2.mp4
 wwwroot\videos\3.mp4

@@ -60,8 +60,6 @@ namespace OVS.Controllers
             return View(candidate);
         }
 
-        // POST: Candidate/RemoveCandidate/{id}
-        [HttpPost]
         public IActionResult RemoveCandidateConfirmed(int id)
         {
             var candidate = _context.Candidates.FirstOrDefault(c => c.CandidateId == id);
@@ -79,11 +77,25 @@ namespace OVS.Controllers
             return RedirectToAction("CandidateList");
         }
 
-        // GET: Candidate/CandidateList
         public IActionResult CandidateList()
         {
             var candidates = _context.Candidates.ToList();
             return View(candidates);
+        }
+
+        // AJAX Endpoint to Fetch Filtered Results
+        public IActionResult GetFilteredCandidates(string searchQuery)
+        {
+            var candidates = _context.Candidates.AsQueryable();
+
+            if (!string.IsNullOrEmpty(searchQuery))
+            {
+                candidates = candidates.Where(c =>
+                    c.Name.Contains(searchQuery) ||
+                    c.PartyAffiliation.Contains(searchQuery));
+            }
+
+            return PartialView("_CandidateTablePartial", candidates.ToList());
         }
 
         // GET: Candidate/CandidateDetails/{id}

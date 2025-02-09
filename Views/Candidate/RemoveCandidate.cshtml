@@ -14,10 +14,14 @@
         <p><strong>Contact Info:</strong> @Model.ContactInfo</p>
         <p><strong>Manifesto:</strong> @Model.Manifesto</p>
         <div>
-            <form method="post" action="@Url.Action("RemoveCandidateConfirmed", "Candidate", new { id = Model.CandidateId })" style="display:inline;">
-                <button type="submit" class="btn btn-danger" aria-label="Confirm remove candidate">Yes, Remove</button>
-            </form>
-            <a href="@Url.Action("CandidateList", "Candidate")" class="btn btn-secondary mt-2" aria-label="Cancel and return to candidate list">Cancel</a>
+            <a href="@Url.Action("RemoveCandidateConfirmed", "Candidate", new { id = Model.CandidateId })"
+               class="btn btn-danger btn-sm"
+               aria-label="Confirm remove candidate"
+               onclick="return confirm('Are you sure you want to remove this candidate?');">Yes, Remove</a>
+            <a href="@Url.Action("CandidateList", "Candidate")"
+               class="btn btn-secondary btn-sm"
+               aria-label="Cancel and return to candidate list"
+               style="margin-left: 10px;">Cancel</a>    
         </div>
     </div>
 </div>

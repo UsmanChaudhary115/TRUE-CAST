@@ -21,6 +21,24 @@ public class ElectionsController : Controller
         return View(elections);
     }
 
+    public IActionResult GetFilteredElections(string searchQuery)
+    {
+        Console.WriteLine("Heelo");
+        var elections = _context.Elections.AsQueryable();
+
+        if (!string.IsNullOrEmpty(searchQuery))
+        {
+            elections = elections.Where(e =>
+                e.Title.Contains(searchQuery) ||
+                e.Summary.Contains(searchQuery));
+        }
+
+        return PartialView("_ElectionTablePartial", elections.ToList());
+    }
+
+
+
+
     // Create Election
     public IActionResult Create()
     {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9URVkTEbkWWDxW4QSQJR0pLa6MyB43ai+JdP6L6uT8M=",
+  "Hash": "w0qAs6BA8Dv9TmPuYyg+c3M31aAUh1+b/4NZ64uvxqo=",
   "Source": "OVS",
   "BasePath": "_content/OVS",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "OVS\\wwwroot",
       "Source": "OVS",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OVS.styles.css",
+      "Identity": "D:\\5th semester\\OVS final\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OVS.styles.css",
       "SourceId": "OVS",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/OVS",
       "RelativePath": "OVS#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "oxCt68DWRIIDf35wcY+Wvd66OeYB8WoSjPDWObaJUSQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\5th semester\\Web\\OVS final\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OVS.styles.css"
+      "OriginalItemSpec": "D:\\5th semester\\OVS final\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OVS.styles.css"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OVS.bundle.scp.css",
+      "Identity": "D:\\5th semester\\OVS final\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OVS.bundle.scp.css",
       "SourceId": "OVS",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/OVS",
       "RelativePath": "OVS#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "oxCt68DWRIIDf35wcY+Wvd66OeYB8WoSjPDWObaJUSQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\5th semester\\Web\\OVS final\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OVS.bundle.scp.css"
+      "OriginalItemSpec": "D:\\5th semester\\OVS final\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OVS.bundle.scp.css"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\css\\site.css",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\css\\site.css",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -73,17 +73,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8ppt5nqkhz",
-      "Integrity": "pFfEKkQ+T4+g0nDE4esDSZsbvarVZCxci0rvw7IxIoE=",
+      "Fingerprint": "etw0xaf82m",
+      "Integrity": "Ir+mQ0dWKTk2GYPi9+VGydvtRVP1mJeL19Tr58cIWQ0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\favicon.ico",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\favicon.ico",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\04846747-9185-4edf-b44d-a00401197701.png",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\04846747-9185-4edf-b44d-a00401197701.png",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/04846747-9185-4edf-b44d-a00401197701#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\images\\04846747-9185-4edf-b44d-a00401197701.png"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\-260nw-1931454899.jpg",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\-260nw-1931454899.jpg",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/-260nw-1931454899#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\images\\-260nw-1931454899.jpg"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\381e618c-9add-4d4b-85da-c32ba948bf06.jpg",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\381e618c-9add-4d4b-85da-c32ba948bf06.jpg",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/381e618c-9add-4d4b-85da-c32ba948bf06#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\images\\381e618c-9add-4d4b-85da-c32ba948bf06.jpg"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\418fb268-9076-4a38-ba09-a6d64f6e76aa.jpeg",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\418fb268-9076-4a38-ba09-a6d64f6e76aa.jpeg",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/418fb268-9076-4a38-ba09-a6d64f6e76aa#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
@@ -185,10 +185,31 @@
       "OriginalItemSpec": "wwwroot\\images\\418fb268-9076-4a38-ba09-a6d64f6e76aa.jpeg"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\4e3fd3fc-3389-426f-bfaf-5d8666ff5844.JPG",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\43efa819-5a9a-4142-a208-4ab61c1d62aa.jpeg",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
+      "BasePath": "_content/OVS",
+      "RelativePath": "images/43efa819-5a9a-4142-a208-4ab61c1d62aa#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lms9ixry1u",
+      "Integrity": "02CoQne/cRru5SH/QeUrXVEIV7g14uWiUqNkaidGsIQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\43efa819-5a9a-4142-a208-4ab61c1d62aa.jpeg"
+    },
+    {
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\4e3fd3fc-3389-426f-bfaf-5d8666ff5844.JPG",
+      "SourceId": "OVS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/4e3fd3fc-3389-426f-bfaf-5d8666ff5844#[.{fingerprint}]?.JPG",
       "AssetKind": "All",
@@ -206,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4e3fd3fc-3389-426f-bfaf-5d8666ff5844.JPG"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\9052f408-10cd-4985-b8cc-77dbe3b50b77.jpg",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\9052f408-10cd-4985-b8cc-77dbe3b50b77.jpg",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/9052f408-10cd-4985-b8cc-77dbe3b50b77#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -227,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\images\\9052f408-10cd-4985-b8cc-77dbe3b50b77.jpg"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\99012186-2af1-48d3-83ce-1e04376af52e.jpeg",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\99012186-2af1-48d3-83ce-1e04376af52e.jpeg",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/99012186-2af1-48d3-83ce-1e04376af52e#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
@@ -248,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\images\\99012186-2af1-48d3-83ce-1e04376af52e.jpeg"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\about-us.jpg",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\about-us.jpg",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/about-us#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -269,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\images\\about-us.jpg"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\Ali.jpg",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\Ali.jpg",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/Ali#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -290,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Ali.jpg"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\Anas.JPG",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\Anas.JPG",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/Anas#[.{fingerprint}]?.JPG",
       "AssetKind": "All",
@@ -311,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Anas.JPG"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\b14c7c2e-af5f-4019-a1ce-16036181f992.png",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\b14c7c2e-af5f-4019-a1ce-16036181f992.png",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/b14c7c2e-af5f-4019-a1ce-16036181f992#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -332,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\images\\b14c7c2e-af5f-4019-a1ce-16036181f992.png"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\background-protect-system-innovation-vector-illustration-large.jpg",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\background-protect-system-innovation-vector-illustration-large.jpg",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/background-protect-system-innovation-vector-illustration-large#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -353,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\images\\background-protect-system-innovation-vector-illustration-large.jpg"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\bfaffdea-4ffe-4fad-87b5-198d0e3ab5d7.png",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\bfaffdea-4ffe-4fad-87b5-198d0e3ab5d7.png",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/bfaffdea-4ffe-4fad-87b5-198d0e3ab5d7#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -374,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bfaffdea-4ffe-4fad-87b5-198d0e3ab5d7.png"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\Cartoon character design with_6421282.png",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\Cartoon character design with_6421282.png",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/Cartoon character design with_6421282#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -395,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Cartoon character design with_6421282.png"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\Cheema.jpg",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\Cheema.jpg",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/Cheema#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -416,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Cheema.jpg"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\contact-3994013.jpg",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\contact-3994013.jpg",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/contact-3994013#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -437,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\images\\contact-3994013.jpg"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\d9e2bfc7-948a-4363-896b-e04f61aa4611.png",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\d9e2bfc7-948a-4363-896b-e04f61aa4611.png",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/d9e2bfc7-948a-4363-896b-e04f61aa4611#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -458,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\images\\d9e2bfc7-948a-4363-896b-e04f61aa4611.png"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\default-profile-picture.jpg",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\default-profile-picture.jpg",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/default-profile-picture#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -479,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\images\\default-profile-picture.jpg"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\e6710bb1-b731-49fc-b673-5c06a995f13c.JPG",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\e6710bb1-b731-49fc-b673-5c06a995f13c.JPG",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/e6710bb1-b731-49fc-b673-5c06a995f13c#[.{fingerprint}]?.JPG",
       "AssetKind": "All",
@@ -500,10 +521,10 @@
       "OriginalItemSpec": "wwwroot\\images\\e6710bb1-b731-49fc-b673-5c06a995f13c.JPG"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\election-blue-political-background.jpg",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\election-blue-political-background.jpg",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/election-blue-political-background#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -521,10 +542,52 @@
       "OriginalItemSpec": "wwwroot\\images\\election-blue-political-background.jpg"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\Hand putting voting bulletin into box.jpg",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\feedback.jpg",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
+      "BasePath": "_content/OVS",
+      "RelativePath": "images/feedback#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cix9o7knh9",
+      "Integrity": "HFo9/UoZibSb/tnEj3x8CVTYPoT7y+WXd5qLLMfYpCw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\feedback.jpg"
+    },
+    {
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\feedback-form.jpg",
+      "SourceId": "OVS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
+      "BasePath": "_content/OVS",
+      "RelativePath": "images/feedback-form#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bzhc37zo94",
+      "Integrity": "+YoxSpiEXoL3bYIHZUlVLuIDUpqAHhVVJdFW1PEDZr8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\feedback-form.jpg"
+    },
+    {
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\Hand putting voting bulletin into box.jpg",
+      "SourceId": "OVS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/Hand putting voting bulletin into box#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -542,12 +605,12 @@
       "OriginalItemSpec": "wwwroot\\images\\Hand putting voting bulletin into box.jpg"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\logo.png",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\logoNew.png",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
-      "RelativePath": "images/logo#[.{fingerprint}]?.png",
+      "RelativePath": "images/logoNew#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -556,17 +619,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "cixsqhasv7",
-      "Integrity": "pHbE9JHufa9oVUjAvwmit6ljHGdRboyitG0ThzW3Ans=",
+      "Fingerprint": "zkldz8b3qn",
+      "Integrity": "g0G2tLypcTxOgKau68VAwaucUyYjp6PW1ejO9XHG/ig=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\logo.png"
+      "OriginalItemSpec": "wwwroot\\images\\logoNew.png"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\man in shirt smiles and_13146336.png",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\man in shirt smiles and_13146336.png",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/man in shirt smiles and_13146336#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -584,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\images\\man in shirt smiles and_13146336.png"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\man-placing-box-his-ballot.jpg",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\man-placing-box-his-ballot.jpg",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/man-placing-box-his-ballot#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -605,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\images\\man-placing-box-his-ballot.jpg"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\pexels-pixabay-60504.jpg",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\pexels-pixabay-60504.jpg",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/pexels-pixabay-60504#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -626,10 +689,10 @@
       "OriginalItemSpec": "wwwroot\\images\\pexels-pixabay-60504.jpg"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\school-5711987.jpg",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\school-5711987.jpg",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/school-5711987#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -647,10 +710,10 @@
       "OriginalItemSpec": "wwwroot\\images\\school-5711987.jpg"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\Usman.jpg",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\Usman.jpg",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/Usman#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -668,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Usman.jpg"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\vote.png",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\vote.png",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/vote#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -689,10 +752,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vote.png"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\vote-slogan.png",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\images\\vote-slogan.png",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "images/vote-slogan#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -710,10 +773,10 @@
       "OriginalItemSpec": "wwwroot\\images\\vote-slogan.png"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\js\\site.js",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\js\\site.js",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -731,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -752,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -773,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -794,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -815,10 +878,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -836,10 +899,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -857,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -878,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -899,10 +962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -920,10 +983,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -941,10 +1004,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -962,10 +1025,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -983,10 +1046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1004,10 +1067,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1025,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1046,10 +1109,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1067,10 +1130,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1088,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1109,10 +1172,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1130,10 +1193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1151,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1172,10 +1235,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1193,10 +1256,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1214,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1235,10 +1298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1256,10 +1319,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1277,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1298,10 +1361,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1319,10 +1382,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1340,10 +1403,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1361,10 +1424,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1382,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1403,10 +1466,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1424,10 +1487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1445,10 +1508,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1466,10 +1529,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1487,10 +1550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1508,10 +1571,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1529,10 +1592,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1550,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1571,10 +1634,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1592,10 +1655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1613,10 +1676,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1634,10 +1697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1655,10 +1718,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -1676,10 +1739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1697,10 +1760,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1718,10 +1781,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1739,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1760,10 +1823,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1781,10 +1844,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1802,10 +1865,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1823,10 +1886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1844,10 +1907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -1865,10 +1928,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1886,10 +1949,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1907,10 +1970,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1928,10 +1991,31 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\videos\\1.mp4",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\logo.png",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
+      "BasePath": "_content/OVS",
+      "RelativePath": "logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cixsqhasv7",
+      "Integrity": "pHbE9JHufa9oVUjAvwmit6ljHGdRboyitG0ThzW3Ans=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo.png"
+    },
+    {
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\videos\\1.mp4",
+      "SourceId": "OVS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "videos/1#[.{fingerprint}]?.mp4",
       "AssetKind": "All",
@@ -1949,10 +2033,10 @@
       "OriginalItemSpec": "wwwroot\\videos\\1.mp4"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\videos\\2.mp4",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\videos\\2.mp4",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "videos/2#[.{fingerprint}]?.mp4",
       "AssetKind": "All",
@@ -1970,10 +2054,10 @@
       "OriginalItemSpec": "wwwroot\\videos\\2.mp4"
     },
     {
-      "Identity": "D:\\5th semester\\Web\\OVS final\\wwwroot\\videos\\3.mp4",
+      "Identity": "D:\\5th semester\\OVS final\\wwwroot\\videos\\3.mp4",
       "SourceId": "OVS",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5th semester\\Web\\OVS final\\wwwroot\\",
+      "ContentRoot": "D:\\5th semester\\OVS final\\wwwroot\\",
       "BasePath": "_content/OVS",
       "RelativePath": "videos/3#[.{fingerprint}]?.mp4",
       "AssetKind": "All",
@@ -1993,53 +2077,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.8ppt5nqkhz.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4340"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pFfEKkQ+T4+g0nDE4esDSZsbvarVZCxci0rvw7IxIoE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 10 Jan 2025 12:51:52 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8ppt5nqkhz"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-pFfEKkQ+T4+g0nDE4esDSZsbvarVZCxci0rvw7IxIoE="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\css\\site.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2048,7 +2087,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4340"
+          "Value": "4425"
         },
         {
           "Name": "Content-Type",
@@ -2056,11 +2095,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pFfEKkQ+T4+g0nDE4esDSZsbvarVZCxci0rvw7IxIoE=\""
+          "Value": "\"Ir+mQ0dWKTk2GYPi9+VGydvtRVP1mJeL19Tr58cIWQ0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 10 Jan 2025 12:51:52 GMT"
+          "Value": "Fri, 31 Jan 2025 18:00:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2070,13 +2109,58 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pFfEKkQ+T4+g0nDE4esDSZsbvarVZCxci0rvw7IxIoE="
+          "Value": "sha256-Ir+mQ0dWKTk2GYPi9+VGydvtRVP1mJeL19Tr58cIWQ0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.etw0xaf82m.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4425"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ir+mQ0dWKTk2GYPi9+VGydvtRVP1mJeL19Tr58cIWQ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 18:00:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "etw0xaf82m"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ir+mQ0dWKTk2GYPi9+VGydvtRVP1mJeL19Tr58cIWQ0="
         }
       ]
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\favicon.ico",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2121,7 +2205,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\favicon.ico",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2158,7 +2242,7 @@
     },
     {
       "Route": "images/04846747-9185-4edf-b44d-a00401197701.ca6zgvr1mh.png",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\04846747-9185-4edf-b44d-a00401197701.png",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\04846747-9185-4edf-b44d-a00401197701.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2203,7 +2287,7 @@
     },
     {
       "Route": "images/04846747-9185-4edf-b44d-a00401197701.png",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\04846747-9185-4edf-b44d-a00401197701.png",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\04846747-9185-4edf-b44d-a00401197701.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2240,7 +2324,7 @@
     },
     {
       "Route": "images/-260nw-1931454899.itk8dfbogg.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\-260nw-1931454899.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\-260nw-1931454899.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2285,7 +2369,7 @@
     },
     {
       "Route": "images/-260nw-1931454899.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\-260nw-1931454899.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\-260nw-1931454899.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2322,7 +2406,7 @@
     },
     {
       "Route": "images/381e618c-9add-4d4b-85da-c32ba948bf06.4efn38pdfo.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\381e618c-9add-4d4b-85da-c32ba948bf06.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\381e618c-9add-4d4b-85da-c32ba948bf06.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2367,7 +2451,7 @@
     },
     {
       "Route": "images/381e618c-9add-4d4b-85da-c32ba948bf06.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\381e618c-9add-4d4b-85da-c32ba948bf06.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\381e618c-9add-4d4b-85da-c32ba948bf06.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2404,7 +2488,7 @@
     },
     {
       "Route": "images/418fb268-9076-4a38-ba09-a6d64f6e76aa.jpeg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\418fb268-9076-4a38-ba09-a6d64f6e76aa.jpeg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\418fb268-9076-4a38-ba09-a6d64f6e76aa.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2441,7 +2525,7 @@
     },
     {
       "Route": "images/418fb268-9076-4a38-ba09-a6d64f6e76aa.lms9ixry1u.jpeg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\418fb268-9076-4a38-ba09-a6d64f6e76aa.jpeg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\418fb268-9076-4a38-ba09-a6d64f6e76aa.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2485,8 +2569,90 @@
       ]
     },
     {
+      "Route": "images/43efa819-5a9a-4142-a208-4ab61c1d62aa.jpeg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\43efa819-5a9a-4142-a208-4ab61c1d62aa.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1069719"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"02CoQne/cRru5SH/QeUrXVEIV7g14uWiUqNkaidGsIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 21:05:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-02CoQne/cRru5SH/QeUrXVEIV7g14uWiUqNkaidGsIQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/43efa819-5a9a-4142-a208-4ab61c1d62aa.lms9ixry1u.jpeg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\43efa819-5a9a-4142-a208-4ab61c1d62aa.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1069719"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"02CoQne/cRru5SH/QeUrXVEIV7g14uWiUqNkaidGsIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 21:05:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lms9ixry1u"
+        },
+        {
+          "Name": "label",
+          "Value": "images/43efa819-5a9a-4142-a208-4ab61c1d62aa.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-02CoQne/cRru5SH/QeUrXVEIV7g14uWiUqNkaidGsIQ="
+        }
+      ]
+    },
+    {
       "Route": "images/4e3fd3fc-3389-426f-bfaf-5d8666ff5844.JPG",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\4e3fd3fc-3389-426f-bfaf-5d8666ff5844.JPG",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\4e3fd3fc-3389-426f-bfaf-5d8666ff5844.JPG",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2523,7 +2689,7 @@
     },
     {
       "Route": "images/4e3fd3fc-3389-426f-bfaf-5d8666ff5844.jti0tls7e7.JPG",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\4e3fd3fc-3389-426f-bfaf-5d8666ff5844.JPG",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\4e3fd3fc-3389-426f-bfaf-5d8666ff5844.JPG",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2568,7 +2734,7 @@
     },
     {
       "Route": "images/9052f408-10cd-4985-b8cc-77dbe3b50b77.9zq7hzv2mv.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\9052f408-10cd-4985-b8cc-77dbe3b50b77.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\9052f408-10cd-4985-b8cc-77dbe3b50b77.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2613,7 +2779,7 @@
     },
     {
       "Route": "images/9052f408-10cd-4985-b8cc-77dbe3b50b77.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\9052f408-10cd-4985-b8cc-77dbe3b50b77.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\9052f408-10cd-4985-b8cc-77dbe3b50b77.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2650,7 +2816,7 @@
     },
     {
       "Route": "images/99012186-2af1-48d3-83ce-1e04376af52e.jpeg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\99012186-2af1-48d3-83ce-1e04376af52e.jpeg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\99012186-2af1-48d3-83ce-1e04376af52e.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2687,7 +2853,7 @@
     },
     {
       "Route": "images/99012186-2af1-48d3-83ce-1e04376af52e.lms9ixry1u.jpeg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\99012186-2af1-48d3-83ce-1e04376af52e.jpeg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\99012186-2af1-48d3-83ce-1e04376af52e.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2732,7 +2898,7 @@
     },
     {
       "Route": "images/about-us.4efn38pdfo.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\about-us.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\about-us.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2777,7 +2943,7 @@
     },
     {
       "Route": "images/about-us.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\about-us.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\about-us.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2814,7 +2980,7 @@
     },
     {
       "Route": "images/Ali.gldozjvge1.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\Ali.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\Ali.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2859,7 +3025,7 @@
     },
     {
       "Route": "images/Ali.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\Ali.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\Ali.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2896,7 +3062,7 @@
     },
     {
       "Route": "images/Anas.JPG",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\Anas.JPG",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\Anas.JPG",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2933,7 +3099,7 @@
     },
     {
       "Route": "images/Anas.jti0tls7e7.JPG",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\Anas.JPG",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\Anas.JPG",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2978,7 +3144,7 @@
     },
     {
       "Route": "images/b14c7c2e-af5f-4019-a1ce-16036181f992.i65prke96h.png",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\b14c7c2e-af5f-4019-a1ce-16036181f992.png",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\b14c7c2e-af5f-4019-a1ce-16036181f992.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3023,7 +3189,7 @@
     },
     {
       "Route": "images/b14c7c2e-af5f-4019-a1ce-16036181f992.png",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\b14c7c2e-af5f-4019-a1ce-16036181f992.png",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\b14c7c2e-af5f-4019-a1ce-16036181f992.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3060,7 +3226,7 @@
     },
     {
       "Route": "images/background-protect-system-innovation-vector-illustration-large.cjltu8k1oh.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\background-protect-system-innovation-vector-illustration-large.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\background-protect-system-innovation-vector-illustration-large.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3105,7 +3271,7 @@
     },
     {
       "Route": "images/background-protect-system-innovation-vector-illustration-large.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\background-protect-system-innovation-vector-illustration-large.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\background-protect-system-innovation-vector-illustration-large.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3142,7 +3308,7 @@
     },
     {
       "Route": "images/bfaffdea-4ffe-4fad-87b5-198d0e3ab5d7.ca6zgvr1mh.png",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\bfaffdea-4ffe-4fad-87b5-198d0e3ab5d7.png",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\bfaffdea-4ffe-4fad-87b5-198d0e3ab5d7.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3187,7 +3353,7 @@
     },
     {
       "Route": "images/bfaffdea-4ffe-4fad-87b5-198d0e3ab5d7.png",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\bfaffdea-4ffe-4fad-87b5-198d0e3ab5d7.png",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\bfaffdea-4ffe-4fad-87b5-198d0e3ab5d7.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3224,7 +3390,7 @@
     },
     {
       "Route": "images/Cartoon character design with_6421282.i65prke96h.png",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\Cartoon character design with_6421282.png",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\Cartoon character design with_6421282.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3269,7 +3435,7 @@
     },
     {
       "Route": "images/Cartoon character design with_6421282.png",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\Cartoon character design with_6421282.png",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\Cartoon character design with_6421282.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3306,7 +3472,7 @@
     },
     {
       "Route": "images/Cheema.g9bjglnudq.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\Cheema.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\Cheema.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3351,7 +3517,7 @@
     },
     {
       "Route": "images/Cheema.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\Cheema.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\Cheema.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3388,7 +3554,7 @@
     },
     {
       "Route": "images/contact-3994013.5yk94dsiie.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\contact-3994013.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\contact-3994013.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3433,7 +3599,7 @@
     },
     {
       "Route": "images/contact-3994013.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\contact-3994013.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\contact-3994013.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3470,7 +3636,7 @@
     },
     {
       "Route": "images/d9e2bfc7-948a-4363-896b-e04f61aa4611.ca6zgvr1mh.png",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\d9e2bfc7-948a-4363-896b-e04f61aa4611.png",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\d9e2bfc7-948a-4363-896b-e04f61aa4611.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3515,7 +3681,7 @@
     },
     {
       "Route": "images/d9e2bfc7-948a-4363-896b-e04f61aa4611.png",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\d9e2bfc7-948a-4363-896b-e04f61aa4611.png",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\d9e2bfc7-948a-4363-896b-e04f61aa4611.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3552,7 +3718,7 @@
     },
     {
       "Route": "images/default-profile-picture.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\default-profile-picture.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\default-profile-picture.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3589,7 +3755,7 @@
     },
     {
       "Route": "images/default-profile-picture.z2r6q791ua.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\default-profile-picture.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\default-profile-picture.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3634,7 +3800,7 @@
     },
     {
       "Route": "images/e6710bb1-b731-49fc-b673-5c06a995f13c.JPG",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\e6710bb1-b731-49fc-b673-5c06a995f13c.JPG",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\e6710bb1-b731-49fc-b673-5c06a995f13c.JPG",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3671,7 +3837,7 @@
     },
     {
       "Route": "images/e6710bb1-b731-49fc-b673-5c06a995f13c.jti0tls7e7.JPG",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\e6710bb1-b731-49fc-b673-5c06a995f13c.JPG",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\e6710bb1-b731-49fc-b673-5c06a995f13c.JPG",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3716,7 +3882,7 @@
     },
     {
       "Route": "images/election-blue-political-background.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\election-blue-political-background.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\election-blue-political-background.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3753,7 +3919,7 @@
     },
     {
       "Route": "images/election-blue-political-background.o4iqbctma4.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\election-blue-political-background.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\election-blue-political-background.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3797,8 +3963,172 @@
       ]
     },
     {
+      "Route": "images/feedback.cix9o7knh9.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\feedback.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "221972"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HFo9/UoZibSb/tnEj3x8CVTYPoT7y+WXd5qLLMfYpCw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 19:43:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cix9o7knh9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/feedback.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HFo9/UoZibSb/tnEj3x8CVTYPoT7y+WXd5qLLMfYpCw="
+        }
+      ]
+    },
+    {
+      "Route": "images/feedback.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\feedback.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "221972"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HFo9/UoZibSb/tnEj3x8CVTYPoT7y+WXd5qLLMfYpCw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 26 Jan 2025 19:43:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HFo9/UoZibSb/tnEj3x8CVTYPoT7y+WXd5qLLMfYpCw="
+        }
+      ]
+    },
+    {
+      "Route": "images/feedback-form.bzhc37zo94.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\feedback-form.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18401"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+YoxSpiEXoL3bYIHZUlVLuIDUpqAHhVVJdFW1PEDZr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 17:54:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bzhc37zo94"
+        },
+        {
+          "Name": "label",
+          "Value": "images/feedback-form.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+YoxSpiEXoL3bYIHZUlVLuIDUpqAHhVVJdFW1PEDZr8="
+        }
+      ]
+    },
+    {
+      "Route": "images/feedback-form.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\feedback-form.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18401"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+YoxSpiEXoL3bYIHZUlVLuIDUpqAHhVVJdFW1PEDZr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 17:54:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+YoxSpiEXoL3bYIHZUlVLuIDUpqAHhVVJdFW1PEDZr8="
+        }
+      ]
+    },
+    {
       "Route": "images/Hand putting voting bulletin into box.ib5ccjpmwt.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\Hand putting voting bulletin into box.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\Hand putting voting bulletin into box.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3843,7 +4173,7 @@
     },
     {
       "Route": "images/Hand putting voting bulletin into box.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\Hand putting voting bulletin into box.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\Hand putting voting bulletin into box.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3879,8 +4209,8 @@
       ]
     },
     {
-      "Route": "images/logo.cixsqhasv7.png",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\logo.png",
+      "Route": "images/logoNew.png",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\logoNew.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3889,7 +4219,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10845"
+          "Value": "26517"
         },
         {
           "Name": "Content-Type",
@@ -3897,56 +4227,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pHbE9JHufa9oVUjAvwmit6ljHGdRboyitG0ThzW3Ans=\""
+          "Value": "\"g0G2tLypcTxOgKau68VAwaucUyYjp6PW1ejO9XHG/ig=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 01 Jan 2025 06:19:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cixsqhasv7"
-        },
-        {
-          "Name": "label",
-          "Value": "images/logo.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-pHbE9JHufa9oVUjAvwmit6ljHGdRboyitG0ThzW3Ans="
-        }
-      ]
-    },
-    {
-      "Route": "images/logo.png",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\logo.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10845"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pHbE9JHufa9oVUjAvwmit6ljHGdRboyitG0ThzW3Ans=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 01 Jan 2025 06:19:20 GMT"
+          "Value": "Sat, 18 Jan 2025 20:22:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3956,13 +4241,58 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pHbE9JHufa9oVUjAvwmit6ljHGdRboyitG0ThzW3Ans="
+          "Value": "sha256-g0G2tLypcTxOgKau68VAwaucUyYjp6PW1ejO9XHG/ig="
+        }
+      ]
+    },
+    {
+      "Route": "images/logoNew.zkldz8b3qn.png",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\logoNew.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26517"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g0G2tLypcTxOgKau68VAwaucUyYjp6PW1ejO9XHG/ig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 18 Jan 2025 20:22:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zkldz8b3qn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/logoNew.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g0G2tLypcTxOgKau68VAwaucUyYjp6PW1ejO9XHG/ig="
         }
       ]
     },
     {
       "Route": "images/man in shirt smiles and_13146336.ca6zgvr1mh.png",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\man in shirt smiles and_13146336.png",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\man in shirt smiles and_13146336.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4007,7 +4337,7 @@
     },
     {
       "Route": "images/man in shirt smiles and_13146336.png",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\man in shirt smiles and_13146336.png",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\man in shirt smiles and_13146336.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4044,7 +4374,7 @@
     },
     {
       "Route": "images/man-placing-box-his-ballot.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\man-placing-box-his-ballot.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\man-placing-box-his-ballot.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4081,7 +4411,7 @@
     },
     {
       "Route": "images/man-placing-box-his-ballot.zqepmv03t0.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\man-placing-box-his-ballot.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\man-placing-box-his-ballot.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4126,7 +4456,7 @@
     },
     {
       "Route": "images/pexels-pixabay-60504.fp0dpvhpkp.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\pexels-pixabay-60504.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\pexels-pixabay-60504.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4171,7 +4501,7 @@
     },
     {
       "Route": "images/pexels-pixabay-60504.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\pexels-pixabay-60504.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\pexels-pixabay-60504.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4208,7 +4538,7 @@
     },
     {
       "Route": "images/school-5711987.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\school-5711987.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\school-5711987.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4245,7 +4575,7 @@
     },
     {
       "Route": "images/school-5711987.xf5lyn02bh.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\school-5711987.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\school-5711987.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4290,7 +4620,7 @@
     },
     {
       "Route": "images/Usman.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\Usman.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\Usman.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4327,7 +4657,7 @@
     },
     {
       "Route": "images/Usman.qeo63hx8wh.jpg",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\Usman.jpg",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\Usman.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4372,7 +4702,7 @@
     },
     {
       "Route": "images/vote.8vaaxmx989.png",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\vote.png",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\vote.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4417,7 +4747,7 @@
     },
     {
       "Route": "images/vote.png",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\vote.png",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\vote.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4454,7 +4784,7 @@
     },
     {
       "Route": "images/vote-slogan.ed5gxg97p0.png",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\vote-slogan.png",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\vote-slogan.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4499,7 +4829,7 @@
     },
     {
       "Route": "images/vote-slogan.png",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\images\\vote-slogan.png",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\images\\vote-slogan.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4536,7 +4866,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\js\\site.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4573,7 +4903,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\js\\site.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4618,7 +4948,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4655,7 +4985,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4700,7 +5030,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4737,7 +5067,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4782,7 +5112,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4819,7 +5149,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4864,7 +5194,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4901,7 +5231,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4946,7 +5276,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4983,7 +5313,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5028,7 +5358,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5065,7 +5395,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.9b9oa1qrmt.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5110,7 +5440,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5147,7 +5477,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5192,7 +5522,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5229,7 +5559,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ve6x09088i.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5274,7 +5604,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5319,7 +5649,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5356,7 +5686,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5393,7 +5723,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5438,7 +5768,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5475,7 +5805,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5520,7 +5850,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5557,7 +5887,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.unj9p35syc.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5602,7 +5932,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5639,7 +5969,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5684,7 +6014,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5721,7 +6051,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5758,7 +6088,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5795,7 +6125,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5840,7 +6170,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.n1oizzvkh6.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5885,7 +6215,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.q2ku51ktnl.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5930,7 +6260,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.7na4sro3qu.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5975,7 +6305,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6012,7 +6342,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6057,7 +6387,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6094,7 +6424,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6131,7 +6461,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6168,7 +6498,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6213,7 +6543,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.f8imaxxbri.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6258,7 +6588,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.0wve5yxp74.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6303,7 +6633,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6340,7 +6670,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6385,7 +6715,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6422,7 +6752,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6459,7 +6789,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6496,7 +6826,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6541,7 +6871,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.npxfuf8dg6.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6586,7 +6916,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6623,7 +6953,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6668,7 +6998,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6705,7 +7035,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.16095smhkz.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6750,7 +7080,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6787,7 +7117,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6824,7 +7154,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6869,7 +7199,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.b4skse8du6.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6914,7 +7244,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6951,7 +7281,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6996,7 +7326,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7033,7 +7363,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7070,7 +7400,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7115,7 +7445,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7152,7 +7482,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.u3xrusw2ol.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7197,7 +7527,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.tey0rigmnh.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7242,7 +7572,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7279,7 +7609,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7324,7 +7654,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7361,7 +7691,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.l2av4jpuoj.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7406,7 +7736,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.25iw1kog22.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7451,7 +7781,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7488,7 +7818,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7533,7 +7863,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7570,7 +7900,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7607,7 +7937,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7652,7 +7982,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7689,7 +8019,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.m39kt2b5c9.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7734,7 +8064,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7771,7 +8101,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7808,7 +8138,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7853,7 +8183,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.um2aeqy4ik.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7898,7 +8228,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7935,7 +8265,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7980,7 +8310,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8017,7 +8347,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8054,7 +8384,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8091,7 +8421,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8136,7 +8466,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.zwph15dxgs.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8181,7 +8511,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.o4kw7cc6tf.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8226,7 +8556,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8263,7 +8593,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8308,7 +8638,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.fwhahm2icz.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8353,7 +8683,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8390,7 +8720,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8435,7 +8765,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.dd6z7egasc.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8480,7 +8810,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8517,7 +8847,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8554,7 +8884,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8599,7 +8929,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8636,7 +8966,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8681,7 +9011,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8718,7 +9048,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8763,7 +9093,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8800,7 +9130,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8837,7 +9167,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.b7iojwaux1.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8882,7 +9212,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8919,7 +9249,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.pzqfkb6aqo.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8964,7 +9294,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9001,7 +9331,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9046,7 +9376,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.47otxtyo56.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9091,7 +9421,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9128,7 +9458,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9173,7 +9503,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9210,7 +9540,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9255,7 +9585,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9291,8 +9621,90 @@
       ]
     },
     {
+      "Route": "logo.cixsqhasv7.png",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10845"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pHbE9JHufa9oVUjAvwmit6ljHGdRboyitG0ThzW3Ans=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 06:19:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cixsqhasv7"
+        },
+        {
+          "Name": "label",
+          "Value": "logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pHbE9JHufa9oVUjAvwmit6ljHGdRboyitG0ThzW3Ans="
+        }
+      ]
+    },
+    {
+      "Route": "logo.png",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10845"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pHbE9JHufa9oVUjAvwmit6ljHGdRboyitG0ThzW3Ans=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 06:19:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pHbE9JHufa9oVUjAvwmit6ljHGdRboyitG0ThzW3Ans="
+        }
+      ]
+    },
+    {
       "Route": "OVS.3ktskmijwk.bundle.scp.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OVS.bundle.scp.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OVS.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9313,7 +9725,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 08 Jan 2025 17:51:45 GMT"
+          "Value": "Sat, 18 Jan 2025 20:28:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9337,7 +9749,7 @@
     },
     {
       "Route": "OVS.3ktskmijwk.styles.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OVS.styles.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OVS.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9358,7 +9770,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 08 Jan 2025 17:51:45 GMT"
+          "Value": "Sat, 18 Jan 2025 20:28:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9382,7 +9794,7 @@
     },
     {
       "Route": "OVS.bundle.scp.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OVS.bundle.scp.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OVS.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9403,7 +9815,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 08 Jan 2025 17:51:45 GMT"
+          "Value": "Sat, 18 Jan 2025 20:28:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9419,7 +9831,7 @@
     },
     {
       "Route": "OVS.styles.css",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OVS.styles.css",
+      "AssetFile": "D:\\5th semester\\OVS final\\obj\\Debug\\net8.0\\scopedcss\\bundle\\OVS.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9440,7 +9852,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 08 Jan 2025 17:51:45 GMT"
+          "Value": "Sat, 18 Jan 2025 20:28:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9456,7 +9868,7 @@
     },
     {
       "Route": "videos/1.mp4",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\videos\\1.mp4",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\videos\\1.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9493,7 +9905,7 @@
     },
     {
       "Route": "videos/1.x6chk4bs0r.mp4",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\videos\\1.mp4",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\videos\\1.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9538,7 +9950,7 @@
     },
     {
       "Route": "videos/2.mp4",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\videos\\2.mp4",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\videos\\2.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9575,7 +9987,7 @@
     },
     {
       "Route": "videos/2.rbeuft7f06.mp4",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\videos\\2.mp4",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\videos\\2.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9620,7 +10032,7 @@
     },
     {
       "Route": "videos/3.mp4",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\videos\\3.mp4",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\videos\\3.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9657,7 +10069,7 @@
     },
     {
       "Route": "videos/3.ujd6ywa8zt.mp4",
-      "AssetFile": "D:\\5th semester\\Web\\OVS final\\wwwroot\\videos\\3.mp4",
+      "AssetFile": "D:\\5th semester\\OVS final\\wwwroot\\videos\\3.mp4",
       "Selectors": [],
       "ResponseHeaders": [
         {

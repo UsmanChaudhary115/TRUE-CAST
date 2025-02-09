@@ -17,189 +17,205 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OVS
 build_property.RootNamespace = OVS
-build_property.ProjectDir = D:\5th semester\Web\OVS final\
+build_property.ProjectDir = D:\5th semester\OVS final\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\5th semester\Web\OVS final
+build_property.MSBuildProjectDirectory = D:\5th semester\OVS final
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/5th semester/Web/OVS final/Views/Admin/AdminPannel.cshtml]
+[D:/5th semester/OVS final/Views/Admin/AdminPannel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5QYW5uZWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Admin/AdminSignIn.cshtml]
+[D:/5th semester/OVS final/Views/Admin/AdminSignIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5TaWduSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Admin/AdminSignOut.cshtml]
+[D:/5th semester/OVS final/Views/Admin/AdminSignOut.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5TaWduT3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Admin/ShowResultForAdmin.cshtml]
+[D:/5th semester/OVS final/Views/Admin/ShowResultForAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvd1Jlc3VsdEZvckFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Candidate/AddCandidate.cshtml]
+[D:/5th semester/OVS final/Views/Candidate/AddCandidate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlXEFkZENhbmRpZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Candidate/AddCandidateToElection.cshtml]
+[D:/5th semester/OVS final/Views/Candidate/AddCandidateToElection.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlXEFkZENhbmRpZGF0ZVRvRWxlY3Rpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Candidate/CandidateDetails.cshtml]
+[D:/5th semester/OVS final/Views/Candidate/CandidateDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlXENhbmRpZGF0ZURldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Candidate/CandidateList.cshtml]
+[D:/5th semester/OVS final/Views/Candidate/CandidateList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlXENhbmRpZGF0ZUxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Candidate/CandidateListForElection.cshtml]
+[D:/5th semester/OVS final/Views/Candidate/CandidateListForElection.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlXENhbmRpZGF0ZUxpc3RGb3JFbGVjdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Candidate/CandidateListForUser.cshtml]
+[D:/5th semester/OVS final/Views/Candidate/CandidateListForUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlXENhbmRpZGF0ZUxpc3RGb3JVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Candidate/RemoveCandidate.cshtml]
+[D:/5th semester/OVS final/Views/Candidate/RemoveCandidate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlXFJlbW92ZUNhbmRpZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Candidate/UpdateCandidate.cshtml]
+[D:/5th semester/OVS final/Views/Candidate/UpdateCandidate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlXFVwZGF0ZUNhbmRpZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Candidate/_AdminSideLayout.cshtml]
+[D:/5th semester/OVS final/Views/Candidate/_AdminSideLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlXF9BZG1pblNpZGVMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Elections/Create.cshtml]
+[D:/5th semester/OVS final/Views/Candidate/_CandidateTablePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlXF9DYW5kaWRhdGVUYWJsZVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5th semester/OVS final/Views/Elections/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlY3Rpb25zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Elections/Delete.cshtml]
+[D:/5th semester/OVS final/Views/Elections/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlY3Rpb25zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Elections/Edit.cshtml]
+[D:/5th semester/OVS final/Views/Elections/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlY3Rpb25zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Elections/ElectionDashboardForAdmin.cshtml]
+[D:/5th semester/OVS final/Views/Elections/ElectionDashboardForAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlY3Rpb25zXEVsZWN0aW9uRGFzaGJvYXJkRm9yQWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Elections/ElectionDetailsForAdmin.cshtml]
+[D:/5th semester/OVS final/Views/Elections/ElectionDetailsForAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlY3Rpb25zXEVsZWN0aW9uRGV0YWlsc0ZvckFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Elections/ElectionDetailsForUser.cshtml]
+[D:/5th semester/OVS final/Views/Elections/ElectionDetailsForUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlY3Rpb25zXEVsZWN0aW9uRGV0YWlsc0ZvclVzZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Elections/ElectoinGuidelines.cshtml]
+[D:/5th semester/OVS final/Views/Elections/ElectoinGuidelines.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlY3Rpb25zXEVsZWN0b2luR3VpZGVsaW5lcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Elections/LiveElections.cshtml]
+[D:/5th semester/OVS final/Views/Elections/LiveElections.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlY3Rpb25zXExpdmVFbGVjdGlvbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Elections/PreviousElections.cshtml]
+[D:/5th semester/OVS final/Views/Elections/PreviousElections.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlY3Rpb25zXFByZXZpb3VzRWxlY3Rpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Elections/ShowResult.cshtml]
+[D:/5th semester/OVS final/Views/Elections/ShowResult.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlY3Rpb25zXFNob3dSZXN1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Elections/UpcomingElections.cshtml]
+[D:/5th semester/OVS final/Views/Elections/UpcomingElections.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlY3Rpb25zXFVwY29taW5nRWxlY3Rpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Elections/_AdminSideLayout.cshtml]
+[D:/5th semester/OVS final/Views/Elections/_AdminSideLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlY3Rpb25zXF9BZG1pblNpZGVMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Elections/_UserSidelayout.cshtml]
+[D:/5th semester/OVS final/Views/Elections/_ElectionTablePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlY3Rpb25zXF9FbGVjdGlvblRhYmxlUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5th semester/OVS final/Views/Elections/_UserSidelayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWxlY3Rpb25zXF9Vc2VyU2lkZWxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Home/UserLogInInterface.cshtml]
+[D:/5th semester/OVS final/Views/Home/UserLogInInterface.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2VyTG9nSW5JbnRlcmZhY2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Shared/Error.cshtml]
+[D:/5th semester/OVS final/Views/Home/_UserFeedBacks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfVXNlckZlZWRCYWNrcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5th semester/OVS final/Views/Shared/Components/UserFeedbacks/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVXNlckZlZWRiYWNrc1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5th semester/OVS final/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Shared/_PV.cshtml]
+[D:/5th semester/OVS final/Views/Shared/_PV.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QVi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/5th semester/OVS final/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/User/EditProfile.cshtml]
+[D:/5th semester/OVS final/Views/User/EditProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0UHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/User/Profile.cshtml]
+[D:/5th semester/OVS final/Views/User/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/User/Register.cshtml]
+[D:/5th semester/OVS final/Views/User/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/User/SignIn.cshtml]
+[D:/5th semester/OVS final/Views/User/SignIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaWduSW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/User/SignOut.cshtml]
+[D:/5th semester/OVS final/Views/User/SignOut.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaWduT3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/User/UserPannel.cshtml]
+[D:/5th semester/OVS final/Views/User/UserPannel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyUGFubmVsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/User/_UserSidelayout.cshtml]
+[D:/5th semester/OVS final/Views/User/_UserSidelayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxfVXNlclNpZGVsYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Vote/CastVote.cshtml]
+[D:/5th semester/OVS final/Views/Vote/CastVote.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm90ZVxDYXN0Vm90ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Vote/VoteHistory.cshtml]
+[D:/5th semester/OVS final/Views/Vote/VoteHistory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm90ZVxWb3RlSGlzdG9yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Vote/_UserSidelayout.cshtml]
+[D:/5th semester/OVS final/Views/Vote/_UserSidelayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm90ZVxfVXNlclNpZGVsYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/_ViewImports.cshtml]
+[D:/5th semester/OVS final/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/_ViewStart.cshtml]
+[D:/5th semester/OVS final/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5th semester/Web/OVS final/Views/Admin/_AdminSideLayout.cshtml]
+[D:/5th semester/OVS final/Views/Admin/_AdminSideLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cX0FkbWluU2lkZUxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-hjva78kc8j
 
-[D:/5th semester/Web/OVS final/Views/Shared/_Layout.cshtml]
+[D:/5th semester/OVS final/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4tank0c8zm

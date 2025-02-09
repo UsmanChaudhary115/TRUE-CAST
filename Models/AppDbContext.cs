@@ -14,5 +14,6 @@ namespace OVS.Models
         public DbSet<ElectionCandidate> ElectionCandidates { get; set; }
         public DbSet<Vote> Votes { get; set; }
         public DbSet<VoteHistory> VoteHistories { get; set; }
+        public DbSet<FeedbackModel> Feedbacks { get; set; }
     }
 }
